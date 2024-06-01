@@ -38,19 +38,19 @@ function Header() {
                     <ul className="brand-labels-text">Các nhãn hiệu của chúng tôi</ul>
                     <ul className="brand-labels-text-hidden">
                         <li className="brand-labels-text-hidden-text">
-                            <a href="#">Các nhãn hiệu</a>
+                            <a href="##">Các nhãn hiệu</a>
                         </li>
                         <li className="brand-labels-text-hidden-text">
-                            <a href="#">Đổi mới</a>
+                            <a href="##">Đổi mới</a>
                         </li>
                         <li className="brand-labels-text-hidden-text">
-                            <a href="#">An toàn sản phẩm</a>
+                            <a href="##">An toàn sản phẩm</a>
                         </li>
                         <li className="brand-labels-text-hidden-text">
-                            <a href="#">Thành phần</a>
+                            <a href="##">Thành phần</a>
                         </li>
                         <li className="brand-labels-text-hidden-text">
-                            <a href="#">#BECRUELTYFREE</a>
+                            <a href="##">#BECRUELTYFREE</a>
                         </li>
                     </ul>
                     <IoIosArrowDown className="brand-labels-icon" />
@@ -59,34 +59,34 @@ function Header() {
                     <ul className="impact-labels-text">Ảnh hưởng của chúng tôi</ul>
                     <ul className="impact-labels-text-hidden">
                         <li className="impact-labels-text-hidden-text">
-                            <a href="#">Ảnh hưởng cộng đồng</a>
+                            <a href="##">Ảnh hưởng cộng đồng</a>
                         </li>
                         <li className="impact-labels-text-hidden-text">
-                            <a href="#">Bình đẳng và hòa nhập</a>
+                            <a href="##">Bình đẳng và hòa nhập</a>
                             <IoIosArrowForward className="equality-inclusion" />
                             <ul class="additional-list">
                                 <li className="additional-list-text">
-                                    <a href="#">Bình đắng giới</a>
+                                    <a href="##">Bình đắng giới</a>
                                 </li>
                                 <li className="additional-list-text">
-                                    <a href="#">Người khuyết tật</a>
+                                    <a href="##">Người khuyết tật</a>
                                 </li>
                                 <li className="additional-list-text">
-                                    <a href="#">LGBTQ+</a>
+                                    <a href="##">LGBTQ+</a>
                                 </li>
                             </ul>
                         </li>
                         <li className="impact-labels-text-hidden-text">
-                            <a href="#">Bền vững</a>
+                            <a href="##">Bền vững</a>
                             <IoIosArrowForward className="lasting" />
                             <ul class="additional-list">
                                 <li className="additional-list-text">
-                                    <a href="#">Làm đẹp có trách nhiệm</a>
+                                    <a href="##">Làm đẹp có trách nhiệm</a>
                                 </li>
                             </ul>
                         </li>
                         <li className="impact-labels-text-hidden-text">
-                            <a href="#">Đạo đức & trách nhiệm doanh nghiệp </a>
+                            <a href="##">Đạo đức & trách nhiệm doanh nghiệp </a>
                         </li>
                         <li className="impact-labels-text-hidden-text"></li>
                     </ul>
@@ -99,7 +99,7 @@ function Header() {
                     <ul className="story-labels-text">Câu chuyện của chúng tôi</ul>
                     <ul className="story-labels-text-hidden">
                         <li className="story-labels-text-hidden-text">
-                            <a href="#">Chúng tôi là ai</a>
+                            <a href="##">Chúng tôi là ai</a>
                         </li>
                     </ul>
                     <IoIosArrowDown className="story-labels-icon" />
