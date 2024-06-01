@@ -146,10 +146,10 @@ function Content() {
     return (
         <div className="wrap-content">
             <div className="content-introduce">
-                <img className="content-introduce-image1" src={image_1} />
-                <img className="content-introduce-image2" src={image_2} />
-                <img className="content-introduce-image3" src={image_3} />
-                <img className="content-introduce-image4" src={image_4} />
+                <img className="content-introduce-image1" src={image_1} alt="" />
+                <img className="content-introduce-image2" src={image_2} alt="" />
+                <img className="content-introduce-image3" src={image_3} alt="" />
+                <img className="content-introduce-image4" src={image_4} alt="" />
                 <button className="content-introduce-btn" onClick={handleTogglePause}>
                     {isPaused ? (
                         <FaPlay className="content-introduce-btn-play" />
@@ -159,7 +159,7 @@ function Content() {
                 </button>
                 <h1 className="content-introduce-title">Chiến Lược Tăng Trưởng Toàn Diện</h1>
                 <button className="content-introduce-report-btn">
-                    <a className="content-introduce-report-btn-text" href="#">
+                    <a className="content-introduce-report-btn-text" href="##">
                         Báo Cáo Thường Niên 2023
                     </a>
                     <MdArrowOutward className="content-introduce-report-btn-icon" />
@@ -177,7 +177,7 @@ function Content() {
                             <div className="hover-content">
                                 <p className="hover-content-text">Brand</p>
                                 <button className="hover-content-btn">
-                                    <a href="#" title="brand">
+                                    <a href="##" title="brand">
                                         Đến Trang
                                     </a>
                                 </button>

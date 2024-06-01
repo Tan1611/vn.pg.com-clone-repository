@@ -32,19 +32,19 @@ function FooterNavigate() {
                         <IoIosArrowUp className="icon-down" />
                         <ul class="partner-investor-list">
                             <li className="partner-investor-list-hidden">
-                                <a href="#" title="www.pginvestor.com">
+                                <a href="##" title="www.pginvestor.com">
                                     Nhà Đầu Tư
                                 </a>
                                 <GoArrowUpRight className="partner-investor-icon" />
                             </li>
                             <li className="partner-investor-list-hidden">
-                                <a href="#" title="www.connectdevelop.com">
+                                <a href="##" title="www.connectdevelop.com">
                                     Làm Đối Tác Với Chứng Tôi
                                 </a>
                                 <GoArrowUpRight className="partner-investor-icon" />
                             </li>
                             <li className="partner-investor-list-hidden">
-                                <a href="#" title="www.pgsupplier.com/en-US">
+                                <a href="##" title="www.pgsupplier.com/en-US">
                                     Nhà Cung Cấp
                                 </a>
                                 <GoArrowUpRight className="partner-investor-icon" />
@@ -56,23 +56,23 @@ function FooterNavigate() {
                         <IoIosArrowUp className="icon-down" />
                         <ul class="company-list">
                             <li className="company-list-hidden">
-                                <a href="#">Lãnh Đạo</a>
+                                <a href="##">Lãnh Đạo</a>
                             </li>
                             <li className="company-list-hidden">
-                                <a href="#">Cấu Trúc & Quản Trị</a>
+                                <a href="##">Cấu Trúc & Quản Trị</a>
                             </li>
                             <li className="company-list-hidden">
-                                <a href="#">Chính Sách & Thực Hành</a>
+                                <a href="##">Chính Sách & Thực Hành</a>
                             </li>
                             <li className="company-list-hidden">
-                                <a href="#">Lưu Trữ</a>
+                                <a href="##">Lưu Trữ</a>
                             </li>
                             <li className="company-list-hidden">
-                                <a href="#">Giải Thưởng & Công Nhận</a>
+                                <a href="##">Giải Thưởng & Công Nhận</a>
                                 <GoArrowUpRight className="company-icon" />
                             </li>
                             <li className="company-list-hidden">
-                                <a href="#" title="www.news.pg.com">
+                                <a href="##" title="www.news.pg.com">
                                     Tin Tức
                                 </a>
                                 <GoArrowUpRight className="company-icon" />
