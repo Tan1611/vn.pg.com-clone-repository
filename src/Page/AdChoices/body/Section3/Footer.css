@@ -1,0 +1,84 @@
+/* Footer.css */
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css");
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/twitter.css");
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/youtube.css");
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css");
+.AdChoicesS3-footer {
+  background-color: #0033a0;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.AdChoicesS3-footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.AdChoicesS3-footer-social a {
+  color: white;
+  font-size: 20px;
+}
+
+.AdChoicesS3-footer-links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.AdChoicesS3-footer-column {
+  margin: 20px;
+}
+
+.AdChoicesS3-footer-column h4 {
+  margin-bottom: 10px;
+}
+
+.AdChoicesS3-footer-column a {
+  color: white;
+  display: block;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.AdChoicesS3-footer-contact {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.AdChoicesS3-footer-contact a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.AdChoicesS3-footer-bottom {
+  margin-top: 20px;
+}
+.AdChoicesS3-footerS {
+  display: flex;
+  justify-content: space-around;
+}
+.AdChoicesS3-footer-social2 {
+  margin-top: -16px;
+}
+@media (max-width: 1200px) {
+  .AdChoicesS3-footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .AdChoicesS3-footer-social2 {
+    margin: auto !important;
+    justify-content: center;
+  }
+  .AdChoicesS3-footer-column {
+    margin: 10px 0;
+  }
+  .AdChoicesS3-footerS {
+    display: block;
+  }
+}

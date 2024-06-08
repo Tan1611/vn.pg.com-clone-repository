@@ -4,7 +4,7 @@ import { FiPhone } from 'react-icons/fi';
 import { FaBriefcase, FaXTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa6';
 import { MdOutlineArrowOutward } from 'react-icons/md';
 import { FaFacebook, FaYoutube } from 'react-icons/fa';
-
+import { Link } from 'react-router-dom';
 import './Footer.GlobalStyles.scss';
 import adchoices from '../../assets/images/adchoices.jpg';
 
@@ -47,9 +47,9 @@ function Footer() {
                     <ul className="body-footer-nav-group responsive-group">
                         <li className="body-footer-nav-contactus">
                             <FiPhone className="body-footer-nav-contactus-icon" />
-                            <a href="#" className="body-footer-nav-contactus-text">
+                            <Link to="/ContactUs" className="body-footer-nav-contactus-text">
                                 Liên hệ với chúng tôi
-                            </a>
+                            </Link>
                         </li>
                         <li className="body-footer-nav-career">
                             <FaBriefcase className="body-footer-nav-career-icon" />
@@ -62,9 +62,9 @@ function Footer() {
                     <ul className="body-footer-nav-group">
                         <label className="body-footer-nav-partner-investor">ĐỐI TÁC VÀ NHÀ ĐẦU TƯ</label>
                         <li className="body-footer-nav-investor">
-                            <a href="#" className="body-footer-nav-investor-text">
+                            <Link to="/Investors" className="body-footer-nav-investor-text">
                                 Nhà đầu tư
-                            </a>
+                            </Link>
                             <MdOutlineArrowOutward className="body-footer-nav-investor-icon" />
                         </li>
                         <li className="body-footer-nav-partner">
@@ -93,9 +93,9 @@ function Footer() {
                             </a>
                         </li>
                         <li className="body-footer-nav-policy">
-                            <a href="#" className="body-footer-nav-policy-text">
+                            <Link to="/PolicyAndEnforcement" className="body-footer-nav-policy-text">
                                 Chính sách & Thực hành
-                            </a>
+                            </Link>
                         </li>
                         <li className="body-footer-nav-storage">
                             <a href="#" className="body-footer-nav-storage-text">
@@ -138,9 +138,9 @@ function Footer() {
                             <MdOutlineArrowOutward className="body-footer-nav-conditions-icon" />
                         </li>
                         <li className="body-footer-nav-adchoices">
-                            <a href="#" className="body-footer-nav-adchoices-text">
+                            <Link to="/AdChoices" className="body-footer-nav-adchoices-text">
                                 AdChoices
-                            </a>
+                            </Link>
                             <img src={adchoices} alt="adchoices" className="body-footer-nav-adchoices-img" />
                         </li>
                     </ul>

@@ -1,0 +1,107 @@
+.ContactUsS2-btnSeeMore {
+  display: flex;
+  margin-top: 30px !important;
+  font-size: 17px;
+  padding: 0.7em 1em;
+  font-weight: 500;
+  color: #003da5;
+  border: 1px solid #000; /* Border màu đen */
+  background-color: transparent; /* Không có background */
+  position: relative;
+  overflow: hidden;
+  border-radius: 1em;
+  cursor: pointer;
+  transition: background-color 500ms, color 500ms; /* Thêm transition cho background và color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContactUsS2-btnSeeMore .ContactUsS2-btn-gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 0.6em;
+  margin-top: -0.25em;
+}
+
+.ContactUsS2-btnSeeMore .ContactUsS2-btn-label {
+  position: relative;
+  top: -1px;
+  display: flex;
+  align-items: center;
+}
+
+.ContactUsS2-btnSeeMore .ContactUsS2-btn-label p {
+  margin: 0;
+  margin-right: 0.5em;
+  font-weight: 600;
+}
+
+.ContactUsS2-btnSeeMore .ContactUsS2-btn-transition {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 500ms;
+  background-color: #003da5;
+  color: #ffffff;
+  border-radius: 9999px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ContactUsS2-btnSeeMore:hover .ContactUsS2-btn-transition {
+  width: 14em;
+  height: 14em;
+  color: #ffffff;
+}
+
+.ContactUsS2-btnSeeMore:hover {
+  background-color: #003da5; /* Màu nền xanh khi hover */
+  color: #ffffff; /* Màu chữ trắng khi hover */
+}
+
+.ContactUsS2-btnSeeMore:active {
+  transform: scale(0.97);
+  color: #ffffff;
+}
+.ContactUsS2-item1 {
+  padding: 50px 5vw;
+}
+.ContactUsS2-item1-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+}
+.ContactUsS2-item1-title2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+.ContactUsS2-item1-content {
+  font-size: 18px;
+  line-height: 1.6;
+  width: 40vw;
+  color: #000;
+}
+@media (max-width: 1200px) {
+  .ContactUsS2-display {
+    display: block;
+  }
+  .ContactUsS2-item1-title {
+    width: 90vw;
+  }
+  .ContactUsS2-item1-title2 {
+    width: 90vw;
+  }
+  .ContactUsS2-item1-content {
+    width: 90vw;
+  }
+  .ContactUsS2-btnSeeMore {
+    width: max-content;
+  }
+}

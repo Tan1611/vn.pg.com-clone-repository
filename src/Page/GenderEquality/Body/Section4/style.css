@@ -1,0 +1,136 @@
+.containerGenderEqualityS4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.initiativeGenderEqualityS4 {
+  width: 300px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.imageGenderEqualityS4 {
+  width: 228px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.titleGenderEqualityS4 {
+  line-height: 1.6;
+  font-size: 16px;
+  display: block;
+  font-weight: 600;
+  color: #0056b3;
+  margin: auto;
+  width: 15vw !important;
+}
+
+.descriptionGenderEqualityS4 {
+  padding-top: 16px;
+  font-size: 14px;
+  color: #333;
+  margin: auto;
+  width: 15vw !important;
+  line-height: 1.6;
+}
+
+.seeMoreGenderEqualityS4 {
+  padding-top: 20px;
+  font-size: 14px;
+  color: #003da5;
+  margin: auto;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.genderEqualityS4-content {
+  text-align: center;
+  color: #000;
+  font-size: 16px;
+  width: 50vw;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.genderEqualityS4-title {
+  text-align: center;
+  color: #003da5;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.containerGenderEqualityS4-Mb {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 10px;
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
+  .containerGenderEqualityS4 {
+    display: none;
+  }
+  .containerGenderEqualityS4-Mb {
+    display: block;
+  }
+  .initiativeGenderEqualityS4 {
+    width: 300px;
+    text-align: center;
+  }
+
+  .imageGenderEqualityS4 {
+    width: 228px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .titleGenderEqualityS4 {
+    line-height: 1.6;
+    font-size: 16px;
+    display: block;
+    font-weight: 600;
+    color: #0056b3;
+    margin: auto;
+    width: 80vw !important;
+  }
+
+  .descriptionGenderEqualityS4 {
+    padding-top: 16px;
+    font-size: 14px;
+    color: #333;
+    margin: auto;
+    width: 80vw !important;
+    line-height: 1.6;
+  }
+
+  .seeMoreGenderEqualityS4 {
+    padding-top: 20px;
+    font-size: 14px;
+    color: #003da5;
+    margin: auto;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  .genderEqualityS4-content {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    width: 90vw;
+    margin: auto;
+    line-height: 1.6;
+  }
+
+  .genderEqualityS4-title {
+    text-align: center;
+    color: #003da5;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+}

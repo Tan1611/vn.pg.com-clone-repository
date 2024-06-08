@@ -1,0 +1,123 @@
+.ProductSafetyS4-title {
+  color: #003da5;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left;
+  margin: 70px 5vw;
+}
+.ProductSafetyS4-btn-label {
+  position: absolute;
+  top: 50%;
+  left: 17vw !important;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 80vw;
+  z-index: 2;
+}
+.ProductSafetyS4Mb-container {
+  display: none;
+}
+.ProductSafetyS4-container {
+  display: block;
+}
+@media (max-width: 1200px) {
+  .ProductSafetyS4-container {
+    display: none;
+  }
+  .ProductSafetyS4-title {
+    color: #003da5;
+    font-weight: 700;
+    font-size: 22px !important;
+    margin: 70px 5vw;
+  }
+  .ProductSafetyS4Mb-container {
+    display: block;
+  }
+  .ProductSafetyS4Mb-image {
+    width: 60vw !important;
+    margin: 30px 15vw !important;
+    display: block;
+    padding: 20px;
+  }
+  .ProductSafetyS4Mb-btn-label {
+    position: absolute;
+    top: 50%;
+    left: 50vw !important;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 80vw;
+    z-index: 2;
+  }
+  .ProductSafetyS4Mb-btn-label p,
+  .ProductSafetyS4Mb-btn-label i {
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 500;
+    margin: auto;
+  }
+}
+.ProductSafetyS4-image {
+  display: block;
+  margin: 0 auto;
+  width: 90vw; /* Default for mobile */
+}
+
+.ProductSafetyS4-btn-label {
+  left: 50vw;
+  width: 80vw;
+}
+
+.ProductSafetyS4-btn-label p,
+.ProductSafetyS4-btn-label i {
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 700;
+  margin: auto;
+}
+
+@media (min-width: 1201px) {
+  .ProductSafetyS4-container {
+    display: flex;
+  }
+
+  .ProductSafetyS4-col {
+    width: 33.33%;
+  }
+
+  .ProductSafetyS4-image {
+    width: 372px; /* Original width for larger screens */
+  }
+  .ProductSafetyS4-text {
+    width: 80vw;
+  }
+}
+.ProductSafetyS4-col .image-container {
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.ProductSafetyS4-image {
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+
+.ProductSafetyS4-col .image-container:hover .ProductSafetyS4-image {
+  transform: scale(1.1);
+}
+.ProductSafetyS4Mb-image:hover {
+  transform: scale(1.1);
+}
+.ProductSafetyS4Mb-image {
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+.ProductSafetyS4Mb-col .image-container {
+  overflow: hidden;
+  border-radius: 50%;
+}

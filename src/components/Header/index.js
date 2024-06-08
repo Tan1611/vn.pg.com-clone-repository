@@ -6,6 +6,7 @@ import { IoIosArrowForward } from 'react-icons/io';
 
 import './Header.GlobalStyles.scss';
 import logo from '../../assets/images/P_G_Logo.png';
+import { Link } from 'react-router-dom';
 
 function Header() {
     useEffect(() => {
@@ -30,10 +31,12 @@ function Header() {
     return (
         <nav>
             <div className="header-container">
-                <button className="language-button">
-                    <GrLanguage className="language-icon" />
-                    <span className="language-text">Tiếng Việt</span>
-                </button>
+                <Link to="/Location">
+                    <button className="language-button">
+                        <GrLanguage className="language-icon" />
+                        <span className="language-text">Tiếng Việt</span>
+                    </button>
+                </Link>
                 <ul className="brand-labels">
                     <ul className="brand-labels-text">Các nhãn hiệu của chúng tôi</ul>
                     <ul className="brand-labels-text-hidden">
@@ -41,16 +44,16 @@ function Header() {
                             <a href="#">Các nhãn hiệu</a>
                         </li>
                         <li className="brand-labels-text-hidden-text">
-                            <a href="#">Đổi mới</a>
+                            <Link to="Renewed">Đổi mới</Link>
                         </li>
                         <li className="brand-labels-text-hidden-text">
-                            <a href="#">An toàn sản phẩm</a>
+                            <Link to="/ProductSafety">An toàn sản phẩm</Link>
                         </li>
                         <li className="brand-labels-text-hidden-text">
                             <a href="#">Thành phần</a>
                         </li>
                         <li className="brand-labels-text-hidden-text">
-                            <a href="#">#BECRUELTYFREE</a>
+                            <Link to="/CrueltyFreePage">#BECRUELTYFREE</Link>
                         </li>
                     </ul>
                     <IoIosArrowDown className="brand-labels-icon" />
@@ -66,10 +69,10 @@ function Header() {
                             <IoIosArrowForward className="equality-inclusion" />
                             <ul class="additional-list">
                                 <li className="additional-list-text">
-                                    <a href="#">Bình đắng giới</a>
+                                    <Link to="/GenderEquality">Bình đắng giới</Link>
                                 </li>
                                 <li className="additional-list-text">
-                                    <a href="#">Người khuyết tật</a>
+                                    <Link to="/PeopleWithDisabilities">Người khuyết tật</Link>
                                 </li>
                                 <li className="additional-list-text">
                                     <a href="#">LGBTQ+</a>

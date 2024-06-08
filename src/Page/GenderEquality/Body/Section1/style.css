@@ -1,0 +1,53 @@
+.genderEqualityS1 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  height: 65vh;
+}
+
+.genderEqualityS1-image {
+  clip-path: circle(150vw at 50% -118vw);
+  width: 100vw;
+}
+
+.genderEqualityS1-icon {
+  position: absolute;
+  bottom: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1200px) {
+  .genderEqualityS1 {
+    position: relative;
+    width: 100vw;
+    text-align: center;
+    height: 48vh;
+  }
+
+  .genderEqualityS1-image {
+    width: 100vw;
+    height: 60vh !important;
+    clip-path: ellipse(97vh 32vh at 50% 28%);
+  }
+
+  .genderEqualityS1-icon {
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

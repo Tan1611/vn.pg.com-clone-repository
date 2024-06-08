@@ -1,0 +1,58 @@
+.styled-select {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding: 16px 0px;
+}
+.styled-select select {
+  width: 40vw;
+  margin: auto;
+  display: block;
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid #003da5; /* Adjust the color as needed */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: white;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #003da5; /* Adjust the text color as needed */
+}
+.styled-select::after {
+  content: "\25BC"; /* Unicode character for downward arrow */
+  position: absolute;
+  top: 50%;
+  right: 31vw;
+  pointer-events: none;
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: #003da5; /* Adjust the arrow color as needed */
+}
+.ContactS3-title {
+  color: #003da5;
+  font-size: 22px;
+  font-weight: 700;
+  margin: auto;
+  text-align: center;
+}
+.ContactS3-content {
+  width: 15vw;
+  line-height: 1.6;
+  font-weight: 500;
+  color: #000;
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
+}
+@media (max-width: 1200px) {
+  .ContactS3-content {
+    width: 80vw;
+    line-height: 1.6;
+    font-weight: 500;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+  }
+}

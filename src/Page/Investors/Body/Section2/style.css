@@ -1,0 +1,291 @@
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/arrow-right.css");
+
+.InvestorS2-app {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto auto;
+  gap: 20px;
+  padding: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .InvestorS2-app {
+    grid-template-columns: 1fr; /* Make all cards stack vertically */
+  }
+  .InvestorS2-card2 {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.17);
+    padding: 20px;
+    height: 650px !important;
+  }
+  .InvestorS2-esg-card {
+    display: block;
+    background-image: url(https://s1.q4cdn.com/695946674/files/images/esg/ESG-homepage.png); /* Replace with the actual path */
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    color: #fff;
+    text-align: center;
+  }
+  .InvestorS2-card3-title {
+    width: 80vw !important;
+  }
+  .InvestorS2-card3-Col2 {
+    padding-left: 16px;
+  }
+}
+.InvestorS2-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.17);
+  padding: 20px;
+}
+.InvestorS2-card2 {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.17);
+  padding: 20px;
+  height: 600px;
+}
+.InvestorS2-card-1 {
+  grid-column: span 3;
+}
+
+.InvestorS2-card-4 {
+  grid-column: span 3;
+}
+
+.InvestorS2-card h2 {
+  color: #00378b;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 40px;
+}
+.InvestorS2-card2 h2 {
+  color: #00378b;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 40px;
+}
+.InvestorS2-release,
+.InvestorS2-event {
+  margin-bottom: 40px;
+}
+
+.InvestorS2-release h3,
+.InvestorS2-event h3 {
+  margin: 0;
+  color: #555;
+  font-weight: 400;
+}
+
+.InvestorS2-release p,
+.InvestorS2-event p {
+  margin: 5px 0;
+  color: #00378b;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+a {
+  color: #09378b;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.InvestorS2-view-all {
+  background: #003399;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.InvestorS2-esg-card {
+  display: block;
+  background-image: url(https://s1.q4cdn.com/695946674/files/images/esg/ESG-homepage.png); /* Replace with the actual path */
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  color: #fff;
+  text-align: center;
+}
+
+.InvestorS2-esg-button {
+  background: rgba(0, 51, 153, 0.8);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.InvestorS2-card3-title {
+  color: #ffff;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: left;
+  width: 20vw;
+}
+
+.InvestorS2-card3-btnSeeMore {
+  display: flex;
+  margin-top: 30px !important;
+  font-size: 17px;
+  padding: 0.7em 1em;
+  font-weight: 700;
+  color: #ffff;
+  border: 2px solid #ffff; /* Border màu đen */
+  background-color: transparent; /* Không có background */
+  position: relative;
+  overflow: hidden;
+  border-radius: 2em;
+  cursor: pointer;
+  transition: background-color 500ms, color 500ms; /* Thêm transition cho background và color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.InvestorS2-card3-btnSeeMore .InvestorS2-card3-btn-gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 0.6em;
+  margin-top: -0.25em;
+}
+
+.InvestorS2-card3-btnSeeMore .InvestorS2-card3-btn-label {
+  position: relative;
+  top: -1px;
+  display: flex;
+  align-items: center;
+}
+
+.InvestorS2-card3-btnSeeMore .InvestorS2-card3-btn-label p {
+  margin: 0;
+  margin-right: 0.5em;
+}
+
+.InvestorS2-card3-btnSeeMore .InvestorS2-card3-btn-transition {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 500ms;
+  background-color: #003da5;
+  color: #ffffff;
+  border-radius: 9999px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.InvestorS2-card3-btnSeeMore:hover .InvestorS2-card3-btn-transition {
+  width: 14em;
+  height: 14em;
+  color: #ffffff;
+}
+
+.InvestorS2-card3-btnSeeMore:hover {
+  background-color: #003da5; /* Màu nền xanh khi hover */
+  color: #ffffff; /* Màu chữ trắng khi hover */
+}
+
+.InvestorS2-card3-btnSeeMore:active {
+  transform: scale(0.97);
+  color: #ffffff;
+}
+
+.InvestorS2-card-btnSeeMore {
+  display: flex;
+  margin-top: 30px !important;
+  font-size: 17px;
+  padding: 0.7em 1em;
+  font-weight: 700;
+  color: #003da5;
+  border: 2px solid #003da5; /* Border màu đen */
+  background-color: transparent; /* Không có background */
+  position: relative;
+  overflow: hidden;
+  border-radius: 2em;
+  cursor: pointer;
+  transition: background-color 500ms, color 500ms; /* Thêm transition cho background và color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.InvestorS2-card-btnSeeMore .InvestorS2-card-btn-gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 0.6em;
+  margin-top: -0.25em;
+}
+
+.InvestorS2-card-btnSeeMore .InvestorS2-card-btn-label {
+  position: relative;
+  top: -1px;
+  display: flex;
+  align-items: center;
+}
+
+.InvestorS2-card-btnSeeMore .InvestorS2-card-btn-label p {
+  margin: 0;
+  margin-right: 0.5em;
+}
+
+.InvestorS2-card-btnSeeMore .InvestorS2-card-btn-transition {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 500ms;
+  background-color: #003da5;
+  color: #ffffff;
+  border-radius: 9999px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.InvestorS2-card-btnSeeMore:hover .InvestorS2-card-btn-transition {
+  width: 14em;
+  height: 14em;
+  color: #ffffff;
+}
+
+.InvestorS2-card-btnSeeMore:hover {
+  background-color: #003da5; /* Màu nền xanh khi hover */
+  color: #ffffff; /* Màu chữ trắng khi hover */
+}
+
+.InvestorS2-card-btnSeeMore:active {
+  transform: scale(0.97);
+  color: #ffffff;
+}
+.Investors-card3-text {
+  display: flex;
+  align-items: center;
+  color: #003da5;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px; /* Adjust as needed for spacing between items */
+}
+
+.Investors-card3-text p {
+  margin: 0;
+  margin-right: 10px; /* Adjust this value for spacing between text and icon */
+}
+
+.Investors-card3-text i {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,30 @@
+.titleSection1 {
+  font-weight: 700;
+  color: #003da5;
+  line-height: 1.1;
+  font-size: 100px;
+  margin: 100px 5vw;
+  width: 70vw;
+}
+.titleSection1-1 {
+  margin: auto;
+  width: 50vw;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 16px;
+}
+.contentSection1 {
+  font-weight: 700;
+  text-decoration: underline;
+  color: #003da5;
+}
+@media (max-width: 1200px) {
+  .titleSection1 {
+    font-size: 50px;
+    margin: 50px 5vw;
+    width: 90vw;
+  }
+  .titleSection1-1 {
+    width: 90vw;
+  }
+}

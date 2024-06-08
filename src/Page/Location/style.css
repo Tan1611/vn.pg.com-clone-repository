@@ -1,0 +1,65 @@
+.language-switcher {
+  display: flex;
+  align-items: center;
+  color: #0056b3; /* Màu xanh tương tự như trong hình */
+}
+
+.language-switcher p {
+  margin: 0;
+  color: #0056b3;
+  font-weight: 700;
+}
+
+.separator {
+  padding: 0 10px;
+}
+
+.location-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.location-name {
+  flex: 1;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+.displayLocation {
+  display: flex;
+  justify-content: space-between;
+}
+.widthLocation {
+  width: calc(50% - 2.5vw);
+}
+.titleLocation {
+  font-weight: 700;
+  font-size: 80px;
+  text-align: center;
+  color: #003da5;
+}
+@media (max-width: 1200px) {
+  .location-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .location-name {
+    margin-bottom: 10px;
+  }
+
+  .language-switcher {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .widthLocation {
+    width: calc(100%);
+  }
+  .titleLocation {
+    font-size: 32px;
+  }
+}

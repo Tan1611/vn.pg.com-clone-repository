@@ -1,0 +1,58 @@
+.InvestorS1 {
+  background-color: #003da5;
+  height: 80vh;
+  overflow: hidden;
+}
+.InvestorS1-title1 {
+  font-size: 36px;
+  color: #ffff;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+.InvestorS1-title2 {
+  font-size: 36px;
+  color: #fee03f;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+.InvestorS1Mb {
+  background-color: #003da5;
+  height: 80vh;
+  overflow: hidden;
+  display: none;
+}
+@media (max-width: 1200px) {
+  .InvestorS1Mb {
+    background-color: #003da5;
+    height: 90vh;
+    overflow: hidden;
+    display: block;
+  }
+  .InvestorS1 {
+    background-color: #003da5;
+    height: 80vh;
+    overflow: hidden;
+    display: none;
+  }
+  .InvestorS1-title1 {
+    font-size: 36px;
+    width: 60vw;
+    color: #ffff;
+    font-weight: 700;
+    line-height: 36px;
+    margin: auto;
+    text-align: center;
+    margin-top: 16px;
+  }
+  .InvestorS1-title2 {
+    font-size: 34px;
+    color: #fee03f;
+    width: 50vw;
+    margin: auto;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+  }
+}

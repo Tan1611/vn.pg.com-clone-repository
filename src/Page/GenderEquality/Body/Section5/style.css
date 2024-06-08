@@ -1,0 +1,109 @@
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/arrow-long-left.css");
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/arrow-long-right.css");
+.containerGenderEqualityS5 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.initiativeGenderEqualityS5 {
+  width: 20vw;
+  text-align: center;
+}
+
+.imageGenderEqualityS5 {
+  width: 228px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.titleGenderEqualityS5 {
+  line-height: 1.6;
+  font-size: 16px;
+  display: block;
+  font-weight: 600;
+  color: #0056b3;
+  margin: auto;
+  width: 15vw !important;
+}
+
+.descriptionGenderEqualityS5 {
+  padding-top: 16px;
+  padding-bottom: 50px;
+  font-size: 14px;
+  color: #333;
+  margin: auto;
+  width: 15vw !important;
+  line-height: 1.6;
+}
+.seeMoreGenderEqualityS5 {
+  padding-top: 20px;
+  font-size: 14px;
+  color: #003da5;
+  margin: auto;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 30px;
+  padding: 10px;
+  background-color: #dcdfe4;
+  border-radius: 50%; /* Giảm kích thước của mũi tên chuyển slide */
+}
+
+.slick-prev {
+  left: 50px; /* Điều chỉnh vị trí mũi tên chuyển slide trái */
+}
+
+.slick-next {
+  right: 50px; /* Điều chỉnh vị trí mũi tên chuyển slide phải */
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #003da5;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #003da5;
+}
+.genderEquality-content {
+  color: #000;
+  margin-bottom: 50px;
+  width: 50vw;
+  text-align: center;
+  font-size: 16px;
+  margin: auto;
+}
+.genderEquality-title {
+  color: #003da5;
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+}
+@media (max-width: 1200px) {
+  .genderEquality-content {
+    color: #000;
+    margin-bottom: 50px !important;
+    width: 90vw;
+    margin: auto;
+  }
+  .genderEquality-title {
+    font-size: 22px;
+  }
+  .titleGenderEqualityS5 {
+    width: 90vw !important;
+  }
+
+  .descriptionGenderEqualityS5 {
+    width: 80vw !important;
+  }
+  .imageGenderEqualityS5 {
+    width: 228px;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+  }
+}
