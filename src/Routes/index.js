@@ -10,6 +10,7 @@ import PeopleWithDisabilities from '../Page/PeopleWithDisabilities/PeopleWithDis
 import PolicyAndEnforcement from '../Page/PolicyAndEnforcement/PolicyAndEnforcement.jsx';
 import ProductSafety from '../Page/ProductSafety/layout.jsx';
 import Renewed from '../Page/Renewed/Renewed.jsx';
+import SignInSignUp from '../Page/SignInSignUp/SignInSignUp.js';
 export const routes = [
     {
         path: '/',
@@ -54,6 +55,10 @@ export const routes = [
     {
         path: '/Renewed',
         page: Renewed,
+    },
+    {
+        path: '/SignInSignUp',
+        page: SignInSignUp,
     },
     {
         path: '*',
