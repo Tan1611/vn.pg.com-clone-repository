@@ -44,7 +44,7 @@ function Header() {
                             <a href="#">Các nhãn hiệu</a>
                         </li>
                         <li className="brand-labels-text-hidden-text">
-                            <Link to="Renewed">Đổi mới</Link>
+                            <Link to="/Renewed">Đổi mới</Link>
                         </li>
                         <li className="brand-labels-text-hidden-text">
                             <Link to="/ProductSafety">An toàn sản phẩm</Link>
