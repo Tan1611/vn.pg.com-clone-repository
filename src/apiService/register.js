@@ -1,7 +1,7 @@
 import Axios from './../Axios';
 
-const register = (params = {}) => {
-    const req = Axios.post('users/register/', params);
+const register = async (params = {}) => {
+    const req = await Axios.post('users/register/', params);
 
     return req;
 };
