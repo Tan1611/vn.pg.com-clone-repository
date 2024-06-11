@@ -1,0 +1,172 @@
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/chevron-down.css");
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/search.css");
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/close.css");
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/menu.css");
+.HederInvestors-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+.HederInvestors-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.HederInvestors-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.HederInvestors-nav-list li {
+  position: relative;
+  margin-right: 10px;
+}
+
+.HederInvestors-nav-list a {
+  text-decoration: none;
+  color: #0056b3;
+  padding: 10px 5px;
+  display: block;
+  font-weight: 700;
+  display: inline-flex; /* Thay đổi từ display: block thành display: inline-flex */
+  align-items: center;
+  width: max-content;
+}
+
+.HederInvestors-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.HederInvestors-dropdown li {
+  width: 180px;
+}
+
+.HederInvestors-dropdown a {
+  padding: 10px;
+}
+
+.HederInvestors-nav-list li:hover .HederInvestors-dropdown {
+  display: block;
+}
+
+.HederInvestors-search-icon {
+  width: 20px;
+  height: 20px;
+}
+.HederInvestors-search-icons {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+.HederInvestors-dropdown-item .gg-chevron-down {
+  font-size: 0.8em;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.HeaderInvestors-inputSearch {
+  height: 45px;
+  width: 40vw;
+  position: absolute;
+  display: flex;
+  top: 10px;
+  right: 10px;
+  border-radius: 40px;
+}
+.HederInvestors-headerMb {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
+  height: 60px;
+  position: fixed;
+  display: none;
+  width: 100%;
+  z-index: 99;
+}
+@media (max-width: 1200px) {
+  .HederInvestors-headerMb {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    height: 60px;
+    display: block;
+    position: relative;
+    width: 100%;
+    z-index: 99;
+  }
+  .HederInvestors-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    height: 60px;
+    position: fixed;
+    display: none;
+    width: 100%;
+    z-index: 99;
+  }
+  .SideMenu {
+    position: fixed;
+    left: 0;
+    top: 80%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .HederInvestors-search-iconMb,
+  .HederInvestors-menu-iconMb,
+  .HederInvestors-close-iconMb {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .HederInvestors-close-iconMb {
+    position: absolute;
+    right: 0;
+    top: 0;
+    box-shadow: unset;
+  }
+  .HederInvestors-search-iconMb i,
+  .HederInvestors-menu-iconMb i {
+    font-size: 24px;
+    color: #000;
+  }
+  .search-containerHeaderMb {
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    margin: auto;
+    z-index: 99;
+  }
+
+  .search-inputHeaderMb {
+    width: 100%;
+    position: absolute;
+    padding: 5px;
+    top: 0;
+    left: 50%;
+    width: 80vw;
+    margin: auto;
+    border-radius: 30px;
+    height: 33px;
+    font-size: 16px;
+    transform: translateX(-50%);
+  }
+}

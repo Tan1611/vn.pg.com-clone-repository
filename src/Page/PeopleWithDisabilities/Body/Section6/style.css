@@ -1,0 +1,125 @@
+.PeopleWithDisabilities-title {
+  color: #003da5;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left;
+  margin: 70px 5vw;
+}
+.PeopleWithDisabilities-btn-label {
+  position: absolute;
+  top: 50%;
+  left: 17vw !important;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 80vw;
+  z-index: 2;
+}
+.PeopleWithDisabilitiesMb-container {
+  display: none;
+}
+.PeopleWithDisabilities-container {
+  display: block;
+}
+@media (max-width: 1200px) {
+  .PeopleWithDisabilities-container {
+    display: none;
+  }
+  .PeopleWithDisabilities-title {
+    color: #003da5;
+    font-weight: 700;
+    font-size: 22px !important;
+    margin: 70px 5vw;
+  }
+  .PeopleWithDisabilitiesMb-container {
+    display: block;
+  }
+  .PeopleWithDisabilitiesMb-image {
+    width: 60vw !important;
+    margin: 30px 15vw !important;
+    display: block;
+    padding: 20px;
+  }
+  .PeopleWithDisabilitiesMb-btn-label {
+    position: absolute;
+    top: 50%;
+    left: 50vw !important;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 80vw;
+    z-index: 2;
+  }
+  .PeopleWithDisabilitiesMb-btn-label p,
+  .PeopleWithDisabilitiesMb-btn-label i {
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 500;
+    margin: auto;
+  }
+}
+.PeopleWithDisabilities-image {
+  display: block;
+  margin: 0 auto;
+  width: 90vw; /* Default for mobile */
+}
+
+.PeopleWithDisabilities-btn-label {
+  left: 50vw;
+  width: 80vw;
+}
+
+.PeopleWithDisabilities-btn-label p,
+.PeopleWithDisabilities-btn-label i {
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 700;
+  margin: auto;
+}
+
+@media (min-width: 1201px) {
+  .PeopleWithDisabilities-container {
+    display: flex;
+  }
+
+  .PeopleWithDisabilities-col {
+    width: 33.33%;
+  }
+
+  .PeopleWithDisabilities-image {
+    width: 372px; /* Original width for larger screens */
+  }
+  .PeopleWithDisabilities-text {
+    width: 80vw;
+  }
+}
+.PeopleWithDisabilities-col .image-container {
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.PeopleWithDisabilities-image {
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+
+.PeopleWithDisabilities-col
+  .image-container:hover
+  .PeopleWithDisabilities-image {
+  transform: scale(1.1);
+}
+.PeopleWithDisabilitiesMb-image:hover {
+  transform: scale(1.1);
+}
+.PeopleWithDisabilitiesMb-image {
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+.PeopleWithDisabilitiesMb-col .image-container {
+  overflow: hidden;
+  border-radius: 50%;
+}

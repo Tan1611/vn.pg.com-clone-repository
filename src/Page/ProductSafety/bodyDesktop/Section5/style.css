@@ -1,0 +1,73 @@
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/arrow-top-right.css");
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/arrow-right.css");
+.btnSeeMore {
+  display: flex;
+  margin: auto;
+  margin-top: 30px !important;
+  font-size: 17px;
+  padding: 0.7em 1em;
+  font-weight: 500;
+  color: #003da5;
+  border: 1px solid #000; /* Border màu đen */
+  background-color: transparent; /* Không có background */
+  position: relative;
+  overflow: hidden;
+  border-radius: 1em;
+  cursor: pointer;
+  transition: background-color 500ms, color 500ms; /* Thêm transition cho background và color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnSeeMore .btn-gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 0.6em;
+  margin-top: -0.25em;
+}
+
+.btnSeeMore .btn-label {
+  position: relative;
+  top: -1px;
+  display: flex;
+  align-items: center;
+}
+
+.btnSeeMore .btn-label p {
+  margin: 0;
+  margin-right: 0.5em;
+}
+
+.btnSeeMore .btn-transition {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 500ms;
+  background-color: #003da5;
+  color: #ffffff;
+  border-radius: 9999px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btnSeeMore:hover .btn-transition {
+  width: 14em;
+  height: 14em;
+  color: #ffffff;
+}
+
+.btnSeeMore:hover {
+  background-color: #003da5; /* Màu nền xanh khi hover */
+  color: #ffffff; /* Màu chữ trắng khi hover */
+}
+
+.btnSeeMore:active {
+  transform: scale(0.97);
+  color: #ffffff;
+}

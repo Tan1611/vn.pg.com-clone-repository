@@ -1,0 +1,219 @@
+.InvestorFooter {
+  background-color: #0033a0;
+  color: white;
+  padding: 20px;
+  clip-path: ellipse(118vw 100% at 50% 100%);
+  font-family: Arial, sans-serif;
+}
+
+.InvestorFooter .InvestorFooter-container {
+  max-width: 800px;
+  margin: 150px auto 0 auto;
+}
+
+.InvestorFooter .back-to-top {
+  background: none;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  justify-content: center;
+}
+.InvestorFooter .back-to-top:hover {
+  color: #003da5;
+  background-color: #ffff;
+}
+.btn-InvestorFooters {
+  border: 2px solid white;
+  color: white;
+  border-radius: 30px;
+  height: 40px;
+  background: #0033a0;
+  font-weight: 700;
+  width: 120px;
+  cursor: pointer;
+}
+.InvestorFooter .links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.InvestorFooter .useful-links,
+.InvestorFooter .transfer-agent {
+  flex: 1;
+}
+
+.InvestorFooter .useful-links h3,
+.InvestorFooter .transfer-agent h3,
+.InvestorFooter .email-alerts h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.InvestorFooter .useful-links ul,
+.InvestorFooter .useful-links li {
+  list-style: none;
+  padding: 0;
+}
+
+.InvestorFooter .useful-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.InvestorFooter .transfer-agent address {
+  line-height: 1.5;
+}
+
+.InvestorFooter .email-alerts p {
+  margin-bottom: 10px;
+  font-size: 0.75rem;
+  line-height: 1.875rem;
+}
+
+.InvestorFooter .email-alerts form {
+  display: flex;
+  flex-direction: column;
+}
+
+.InvestorFooter .email-alerts label {
+  margin-bottom: 5px;
+}
+
+.InvestorFooter .email-alerts input[type="email"] {
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  width: 200px;
+  border-radius: 4px;
+}
+
+.InvestorFooter .alert-options {
+  margin-bottom: 10px;
+}
+
+.InvestorFooter .alert-options h4 {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.InvestorFooter .alert-options label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.InvestorFooter .alert-options input {
+  margin-right: 5px;
+}
+
+.InvestorFooter button[type="submit"],
+.InvestorFooter .unsubscribe {
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  background-color: white;
+  color: #0033a0;
+  cursor: pointer;
+}
+
+.InvestorFooter .unsubscribe {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+@media (max-width: 1200px) {
+  .InvestorsFooter-Col1 {
+    display: block;
+    margin: auto;
+  }
+}
+/* Footer.css */
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css");
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/twitter.css");
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/youtube.css");
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css");
+.InvestorsFT-footer {
+  background-color: #0033a0;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.InvestorsFT-footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.InvestorsFT-footer-social a {
+  color: white;
+  font-size: 20px;
+}
+
+.InvestorsFT-footer-links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.InvestorsFT-footer-column {
+  margin: 20px;
+}
+
+.InvestorsFT-footer-column h4 {
+  margin-bottom: 10px;
+}
+
+.InvestorsFT-footer-column a {
+  color: white;
+  display: block;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.InvestorsFT-footer-contact {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.InvestorsFT-footer-contact a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.InvestorsFT-footer-bottom {
+  margin-top: 20px;
+}
+.InvestorsFT-footerS {
+  display: flex;
+  justify-content: space-around;
+}
+.InvestorsFT-footer-social2 {
+  margin-top: -16px;
+}
+@media (max-width: 1200px) {
+  .InvestorsFT-footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .InvestorsFT-footer-social2 {
+    margin: auto !important;
+    justify-content: center;
+  }
+  .InvestorsFT-footer-column {
+    margin: 10px 0;
+  }
+  .InvestorsFT-footerS {
+    display: block;
+  }
+}

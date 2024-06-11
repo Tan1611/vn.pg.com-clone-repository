@@ -1,0 +1,58 @@
+.RenewedS4-title {
+  font-size: 44px;
+  font-weight: 700;
+  color: #003da5;
+  line-height: 1.2;
+  width: 37vw;
+}
+.RenewedS4-image {
+  position: absolute;
+  right: 0px;
+  top: 50%; /* Thêm dòng này để căn giữa theo chiều dọc */
+  transform: translateY(-50%);
+}
+.RenewedS4-content {
+  font-size: 24px;
+  font-weight: 500;
+  color: #003da5;
+  width: 35vw;
+  line-height: 1.2;
+}
+.RenewedS4-content3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #003da5;
+  width: 35vw;
+  line-height: 1.2;
+}
+.RenewedS4-content2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #003da5;
+  width: 35vw;
+  line-height: 1.2;
+}
+.RenewedS4-Col1 {
+  padding: 5vw 10vw;
+}
+.RenewedS4-imageDisplay {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .RenewedS4-Col1 {
+    width: 90vw !important;
+  }
+  .RenewedS4-title {
+    width: 80vw;
+  }
+  .RenewedS4-content {
+    width: 80vw;
+  }
+  .RenewedS4-content3 {
+    width: 90vw;
+  }
+  .RenewedS4-Col2 {
+    position: absolute;
+    z-index: 3;
+  }
+}

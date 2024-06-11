@@ -1,0 +1,137 @@
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/chevron-down.css");
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/chevron-up.css");
+
+.RenewedS3-container {
+  font-family: sans-serif;
+  width: 100%;
+  margin: auto;
+  padding: 20px 5vw;
+  border-radius: 8px;
+  margin-top: 100px;
+}
+
+.RenewedS3-title {
+  font-size: 2em;
+  color: #00aaff;
+}
+
+.RenewedS3-item {
+  cursor: pointer;
+  width: 30vw;
+  display: flex;
+  margin: 20px 0;
+  font-size: 60px;
+  font-weight: 700;
+  color: #003da5;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.timeline-content {
+  margin-top: 20px;
+  padding-left: 20px;
+  display: block;
+}
+
+.timeline-event {
+  margin-bottom: 20px;
+}
+
+.timeline-event:hover {
+  font-weight: bold;
+}
+
+.timeline-event:hover p {
+  color: #000;
+}
+
+.timeline-event h4 {
+  margin: 6px 0;
+  font-size: 1.5em;
+  color: #00aaff;
+}
+
+.timeline-event p {
+  margin: 0;
+  font-size: 1.2em;
+  color: #838383;
+}
+
+.RenewedS3-timeline-image {
+  width: 500px;
+  height: 500px;
+}
+
+.RenewedS3-icon {
+  font-size: 0.5em;
+  margin-left: 10px;
+}
+.RenewedS3Mb {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .RenewedS3Mb {
+    display: block;
+  }
+  .RenewedS3 {
+    display: none;
+  }
+  .RenewedS3Mb-container {
+    font-family: sans-serif;
+    width: 100%;
+    margin: auto;
+    padding: 20px 5vw;
+    border-radius: 8px;
+    margin-top: 100px;
+  }
+
+  .RenewedS3-title {
+    font-size: 1.5em;
+    color: #00aaff;
+  }
+
+  .RenewedS3Mb-item {
+    cursor: pointer;
+    width: 90vw;
+    display: flex;
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #003da5;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .timelineMb-content {
+    margin-top: 20px;
+    padding-left: 20px;
+    display: block;
+  }
+
+  .timelineMb-event {
+    margin-bottom: 20px;
+  }
+
+  .timelineMb-event h4 {
+    margin: 6px 0;
+    font-size: 1.5em;
+    color: #00aaff;
+  }
+
+  .timelineMb-event p {
+    margin: 10px 0;
+    font-size: 1.2em;
+    width: 90vw;
+    color: #838383;
+  }
+
+  .RenewedS3Mb-timeline-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .RenewedS3Mb-icon {
+    font-size: 0.5em;
+    margin-left: 10px;
+  }
+}

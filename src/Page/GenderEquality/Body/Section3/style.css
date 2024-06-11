@@ -1,0 +1,168 @@
+.containerContent {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: 0 10px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageYTB {
+  width: 100%;
+  border-radius: 40px;
+  transition: transform 0.3s ease;
+}
+
+.imageYTB:hover {
+  transform: scale(1.05);
+}
+
+.iconPlay {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: #003da5;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.imageYTB:hover + .iconPlay {
+  color: rgb(194, 180, 180) !important;
+}
+.genderEqualityS3-title {
+  color: #003da5;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.genderEqualityS3-content {
+  color: #000;
+  margin-bottom: 50px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.6;
+  width: 60vw;
+  margin: auto;
+}
+.genderEqualityS3-icon {
+  font-size: 60px;
+}
+.genderEqualityS3-content2 {
+  width: 25vw;
+}
+.genderEqualityS3-Mb {
+  display: none !important;
+}
+@media (max-width: 1200px) {
+  .containerContent {
+    position: relative;
+    width: 100%;
+    margin: 0 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .genderEqualityS3 {
+    display: none !important;
+  }
+  .genderEqualityS3-Mb {
+    display: block !important;
+  }
+  .imageYTB {
+    margin-top: 20px;
+    width: 70vw;
+    border-radius: 40px;
+    margin: auto;
+    display: grid;
+
+    transition: transform 0.3s ease;
+  }
+
+  .imageYTB:hover {
+    transform: scale(1.05);
+  }
+
+  .iconPlay {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: #003da5;
+    pointer-events: none;
+    z-index: 2;
+  }
+
+  .imageYTB:hover + .iconPlay {
+    color: rgb(194, 180, 180) !important;
+  }
+  .genderEqualityS3-title {
+    color: #003da5;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .genderEqualityS3-content {
+    color: #000;
+    margin-bottom: 50px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.6;
+    width: 90vw;
+    margin: auto;
+  }
+  .genderEqualityS3-icon {
+    font-size: 60px;
+  }
+  .genderEqualityS3-content2 {
+    width: 90vw;
+  }
+
+  .genderEqualityS3-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .genderEqualityS3-content {
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 10%;
+  }
+
+  .genderEqualityS3-content2 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .containerContent {
+    text-align: center;
+  }
+
+  .imageYTB {
+    width: 90vw;
+    border-radius: 10px;
+    margin: auto;
+  }
+
+  .iconPlay {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .genderEqualityS3-icon {
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .genderEqualityS3-Mb {
+    margin-bottom: 20px;
+  }
+}

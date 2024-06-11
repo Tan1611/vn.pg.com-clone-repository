@@ -1,0 +1,78 @@
+/* General Container */
+.AdChoicesS2-Content1 {
+  width: 70vw;
+  margin: auto;
+  border-bottom: 1px solid #000;
+  padding: 20px;
+  padding-bottom: unset;
+}
+
+/* Title Section */
+.AdChoicesS2-Content1-Title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.AdChoicesS2-Content1-Title-PrivacyPolicy {
+  color: #003da5;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.AdChoicesS2-Content1-Title-UpdatedDate {
+  color: #000;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 800;
+}
+
+/* Download Link */
+.AdChoicesS2-Content1-DownloadLink {
+  margin-top: -16px;
+  text-decoration: underline;
+  color: #003da5;
+  cursor: pointer;
+}
+
+/* FAQ Section */
+.AdChoicesS2-Content1-FAQ-Title {
+  color: #003da5;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.AdChoicesS2-Content1-FAQ-Description {
+  color: #000;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.AdChoicesS2-Content1-FAQ-Section {
+  padding: 20px;
+}
+
+.AdChoicesS2-Content1-FAQ-Question {
+  color: #000;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.AdChoicesS2-Content1-FAQ-Answer {
+  margin-top: -16px;
+  text-decoration: underline;
+  color: #003da5;
+}
+/* Hiển thị giao diện mobile cho các kích thước nhỏ hơn hoặc bằng 1200px */
+@media (max-width: 1200px) {
+  .AdChoicesS2-Content1 {
+    width: 90vw;
+    margin: auto;
+    border-bottom: 1px solid #000;
+    padding: 20px;
+    padding-bottom: unset;
+  }
+}

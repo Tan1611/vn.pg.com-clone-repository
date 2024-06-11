@@ -1,0 +1,198 @@
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/arrow-top-right.css");
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/arrow-right.css");
+.btnSeeMore {
+  display: flex;
+  margin: auto;
+  margin-top: 30px !important;
+  font-size: 17px;
+  padding: 0.7em 1em;
+  font-weight: 500;
+  color: #003da5;
+  border: 1px solid #000; /* Border màu đen */
+  background-color: transparent; /* Không có background */
+  position: relative;
+  overflow: hidden;
+  border-radius: 1em;
+  cursor: pointer;
+  transition: background-color 500ms, color 500ms; /* Thêm transition cho background và color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnSeeMore .btn-gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 0.6em;
+  margin-top: -0.25em;
+}
+
+.btnSeeMore .btn-label {
+  position: relative;
+  top: -1px;
+  display: flex;
+  align-items: center;
+}
+
+.btnSeeMore .btn-label p {
+  margin: 0;
+  margin-right: 0.5em;
+}
+
+.btnSeeMore .btn-transition {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 500ms;
+  background-color: #003da5;
+  color: #ffffff;
+  border-radius: 9999px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btnSeeMore:hover .btn-transition {
+  width: 14em;
+  height: 14em;
+  color: #ffffff;
+}
+
+.btnSeeMore:hover {
+  background-color: #003da5; /* Màu nền xanh khi hover */
+  color: #ffffff; /* Màu chữ trắng khi hover */
+}
+
+.btnSeeMore:active {
+  transform: scale(0.97);
+  color: #ffffff;
+}
+.ProductSafetyS4PC-title {
+  color: #003da5;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left;
+  margin: 70px 5vw;
+}
+.ProductSafetyS4PC-btn-label {
+  position: absolute;
+  top: 50%;
+  left: 17vw !important;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 80vw;
+  z-index: 2;
+}
+.ProductSafetyS4PCMb-container {
+  display: none;
+}
+.ProductSafetyS4PC-container {
+  display: block;
+}
+@media (max-width: 1200px) {
+  .ProductSafetyS4PC-container {
+    display: none;
+  }
+  .ProductSafetyS4PC-title {
+    color: #003da5;
+    font-weight: 700;
+    font-size: 22px !important;
+    margin: 70px 5vw;
+  }
+  .ProductSafetyS4PCMb-container {
+    display: block;
+  }
+  .ProductSafetyS4PCMb-image {
+    width: 60vw !important;
+    margin: 30px 15vw !important;
+    display: block;
+    padding: 20px;
+  }
+  .ProductSafetyS4PCMb-btn-label {
+    position: absolute;
+    top: 50%;
+    left: 50vw !important;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 80vw;
+    z-index: 2;
+  }
+  .ProductSafetyS4PCMb-btn-label p,
+  .ProductSafetyS4PCMb-btn-label i {
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 500;
+    margin: auto;
+  }
+}
+.ProductSafetyS4PC-image {
+  display: block;
+  margin: 0 auto;
+  width: 90vw; /* Default for mobile */
+}
+
+.ProductSafetyS4PC-btn-label {
+  left: 50vw;
+  width: 80vw;
+}
+
+.ProductSafetyS4PC-btn-label p,
+.ProductSafetyS4PC-btn-label i {
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 700;
+  margin: auto;
+}
+
+@media (min-width: 1201px) {
+  .ProductSafetyS4PC-container {
+    display: flex;
+  }
+
+  .ProductSafetyS4PC-col {
+    width: 33.33%;
+  }
+
+  .ProductSafetyS4PC-image {
+    width: 372px; /* Original width for larger screens */
+  }
+  .ProductSafetyS4PC-text {
+    width: 80vw;
+  }
+}
+.ProductSafetyS4PC-col .image-container {
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.ProductSafetyS4PC-image {
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+
+.ProductSafetyS4PC-col
+  .image-container:hover
+  .ProductSafetyS4PC-image {
+  transform: scale(1.1);
+}
+.ProductSafetyS4PCMb-image:hover {
+  transform: scale(1.1);
+}
+.ProductSafetyS4PCMb-image {
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+.ProductSafetyS4PCMb-col .image-container {
+  overflow: hidden;
+  border-radius: 50%;
+}

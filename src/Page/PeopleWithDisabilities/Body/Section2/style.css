@@ -1,0 +1,109 @@
+.containerS2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.itemS2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.itemS2 img {
+  height: auto;
+}
+.itemS2 p {
+  width: 10vw;
+  color: #003da5;
+  font-weight: 500;
+}
+.PeopleWithDisabilitiesS2-title {
+  margin-top: 5rem;
+  color: #003da5;
+  line-height: 1.1;
+  font-size: 60px;
+  text-align: center;
+}
+
+.PeopleWithDisabilitiesS2-title2 {
+  margin-top: 5rem;
+  color: #003da5;
+  line-height: 1.1;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.PeopleWithDisabilitiesS2-content {
+  width: 50vw;
+  text-align: center;
+  align-items: center;
+  line-height: 1.6;
+  color: #000;
+  font-size: 16px;
+  margin: auto;
+}
+
+.PeopleWithDisabilitiesS2-title3 {
+  width: 35vw;
+  margin-top: 100px;
+  text-align: center;
+  align-items: center;
+  line-height: 1.6;
+  color: #003da5;
+  font-size: 22px;
+  margin: auto;
+  font-weight: 600;
+}
+@media (max-width: 1200px) {
+  .PeopleWithDisabilitiesS2-title {
+    margin-top: 5rem;
+    color: #003da5;
+    line-height: 1.1;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .PeopleWithDisabilitiesS2-title2 {
+    margin-top: 2rem;
+    color: #003da5;
+    line-height: 1.1;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .PeopleWithDisabilitiesS2-content {
+    width: 90vw;
+    text-align: center;
+    align-items: center;
+    line-height: 1.6;
+    color: #000;
+    font-size: 16px;
+    margin: auto;
+  }
+
+  .PeopleWithDisabilitiesS2-title3 {
+    width: 95vw;
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    line-height: 1.6;
+    color: #003da5;
+    font-size: 22px;
+    margin: auto;
+    font-weight: 600;
+  }
+  .containerS2 {
+    flex-wrap: wrap;
+  }
+  .itemS2 p {
+    width: 40vw;
+    color: #003da5;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,37 @@
+.containerSection2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+
+.itemSection2 {
+  display: flex;
+  font-size: 24px;
+  font-weight: 500;
+  justify-content: space-between;
+  align-items: center;
+  width: 40vw;
+  padding: 24px;
+  margin: 10px 0;
+  background-color: #f5f7fa;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.itemSection2:hover {
+  background-color: #002c7a;
+  color: #ffff;
+}
+
+.arrowSection2 {
+  margin-left: auto;
+}
+@media (max-width: 1200px) {
+  .itemSection2 {
+    font-size: 20px;
+    width: 80vw;
+    padding: 16px;
+  }
+}

@@ -1,0 +1,12 @@
+.zoom-container {
+  width: 100vw;
+  height: 40vh;
+  overflow: hidden;
+  transform: scale(1.7);
+}
+
+.zoom-container img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
