@@ -1,0 +1,61 @@
+.LuuTru {
+    width: 100%;
+}
+
+.LuuTru__body {
+    width: 1040;
+    margin-top: 66px;
+}
+
+.LuuTru__body__hero {
+    width: 980px;
+    height: 146px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.LuuTru__body__hero__title {
+    font-size: 60px;
+    margin: 80px 0 0;
+    color: var(--primary-color);
+}
+
+.LuuTru__body__hero__title::after {
+    content: ". ";
+    font-size: 60px;
+    font-weight: 800;
+    color: #fedb00;
+}
+
+.LuuTru__body__textIntro {
+    width: 860px;
+    height: 160px;
+    margin: 0 auto;
+    text-align: center;
+    // background-color: red;
+}
+
+.LuuTru__body__textIntro__title {
+    font-size: 40px;
+    color: var(--primary-color);
+    margin: 0 0 20px;
+}
+
+.LuuTru__body__textIntro__year {
+    width:830px;
+}
+
+.LuuTru__body__textIntro__year__number {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-right: 3px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.LuuTru__body__textIntro__year__number:hover {
+    cursor: pointer;
+}

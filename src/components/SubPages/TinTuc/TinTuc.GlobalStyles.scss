@@ -1,0 +1,314 @@
+.TinTuc {
+    width: 100%;
+    // position: relative;
+}
+
+.TinTuc__header {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    // display: none;
+}
+
+.TinTuc__body {
+    width: 100%;
+    height: 600px;
+}
+
+.TinTuc__body__banner {
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    top: 0;
+    background: url('../../../assets/images/TinTuc-newsroombanner.png') ;
+    background-size: cover;
+    margin: 50px 0 0;
+    padding: 100px 0 80px;
+}
+
+.TinTuc__body__banner__inner {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.TinTuc__body__banner__inner__content {
+    width: 100%;
+    text-align: center;
+}
+
+.TinTuc__body__banner__inner__content__titleDot {
+    display: flex;
+    justify-content: center;
+}
+
+.TinTuc__body__banner__inner__content__title {
+    font-size: 72px;
+    font-weight: 800;
+    color: var(--text-color);
+}
+
+.TinTuc__body__banner__inner__content__dot {
+    font-size: 72px;
+    font-weight: 800;
+    color: #FFDB00;
+}
+
+.TinTuc__body__banner__inner__content__module__title {
+    color: var(--text-color);
+    font-size: 24px;
+    text-align: center;
+    margin: 26px 0 20px;
+}
+
+.TinTuc__body__banner__inner__content__module__text {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 15px;
+}
+
+.TinTuc__body__banner__inner__content__date {
+    color: var(--text-color);
+    font-size: 13px;
+    text-align: center;
+}
+
+.TinTuc__body__outer {
+    margin: 0 auto;
+    margin-top: 500px;
+    width: 1140px;
+    height: 580px;
+    position: relative;
+    // background-color: #FFDB00;
+}
+
+.TinTuc__body__outer__title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #003DA7;
+    margin-bottom: 35px;
+}
+
+.TinTuc__body__outer__items {
+    width: 100%;
+    display: flex;
+}
+
+.TinTuc__body__outer__items__first,
+.TinTuc__body__outer__items__second,
+.TinTuc__body__outer__items__third,
+.TinTuc__body__outer__items__fourth {
+    width: 25%;
+    height: 328px;
+    margin: 30px 0 0;
+    padding: 20px 30px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.TinTuc__body__outer__items__first__img,
+.TinTuc__body__outer__items__second__img,
+.TinTuc__body__outer__items__third__img,
+.TinTuc__body__outer__items__fourth__img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.TinTuc__body__outer__items__first__link,
+.TinTuc__body__outer__items__second__link,
+.TinTuc__body__outer__items__third__link,
+.TinTuc__body__outer__items__fourth__link {
+    font-size: 14px;
+    font-weight: 600;
+    color: #3155C3;
+    margin-bottom: 20px;
+}
+
+.TinTuc__body__outer__items__first__text,
+.TinTuc__body__outer__items__second__text,
+.TinTuc__body__outer__items__third__text,
+.TinTuc__body__outer__items__fourth__text {
+    font-size: 13px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.TinTuc__body__outer__items__first__more,
+.TinTuc__body__outer__items__second__more,
+.TinTuc__body__outer__items__third__more,
+.TinTuc__body__outer__items__fourth__more {
+    font-size: 14px;
+    font-weight: 700;
+    color: #3155C3;
+    text-decoration: underline;
+}
+
+.TinTuc__body__outer__btn {
+    width: 178px;
+    height: 46px;
+    background-color: transparent;
+    border: 2px solid #003DA7;
+    border-radius: 40px;
+    color: #003DA7;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.TinTuc__body__outer__btn:hover {
+    cursor: pointer;
+    background-color: #002C7A;
+    color: var(--text-color);
+}
+
+// .TinTuc__body__outer__items__second {
+//     width: 25%;
+//     height: 328px;
+//     margin: 30px 0 0;
+//     padding: 20px 30px 0 0;
+// }
+
+// .TinTuc__body__outer__items__third {
+//     width: 25%;
+//     height: 328px;
+//     margin: 30px 0 0;
+//     padding: 20px 30px 0 0;
+// }
+
+// .TinTuc__body__outer__items__fourth {
+//     width: 25%;
+//     height: 328px;
+//     margin: 30px 0 0;
+//     padding: 20px 30px 0 0;
+// }
+
+// cuoi
+.TinTuc__footer {
+    width: 100%;
+    height: 600px;
+    background-color: var(--primary-color);
+    clip-path: circle(140vw at 50% 140vw);
+    position: relative;
+}
+
+.TinTuc__footer__head {
+    width: 988px;
+    height: 43px;
+    // background-color: red;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.TinTuc__footer__head__left {
+    flex-grow: 1;
+}
+
+.TinTuc__footer__head__left__facebook,
+.TinTuc__footer__head__left__twitter,
+.TinTuc__footer__head__left__youtube,
+.TinTuc__footer__head__left__instagram,
+.TinTuc__footer__head__left__linkedin {
+    color: var(--text-color);
+    margin: 0 12px;
+}
+
+
+.TinTuc__footer__head__right {
+    flex-grow: 1;
+    justify-content: start;
+    display: flex;
+    align-items: center;
+}
+
+.TinTuc__footer__head__right__icon {
+    color: var(--text-color);
+    margin: 0 12px;
+}
+
+.TinTuc__footer__head__right__contact {
+    margin-right: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.TinTuc__footer__head__right__career {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.TinTuc__footer__content {
+    width: 988px;
+    height: 230px;
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.TinTuc__footer__content__left {
+    display: flex;
+    flex-direction: column;
+    width: 337px;
+}
+
+.TinTuc__footer__content__left__title,
+.TinTuc__footer__content__middle__title,
+.TinTuc__footer__content__right__title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.TinTuc__footer__content__left__link,
+.TinTuc__footer__content__middle__link,
+.TinTuc__footer__content__right__link {
+    font-size: 12px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.TinTuc__footer__content__left__link:hover,
+.TinTuc__footer__content__middle__link:hover,
+.TinTuc__footer__content__right__link:hover {
+    opacity: 0.6;
+}
+
+.TinTuc__footer__content__middle {
+    display: flex;
+    flex-direction: column;
+    width: 337px;
+}
+
+.TinTuc__footer__content__right {
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+}
+
+.TinTuc__footer__copyright {
+    width: 988px;
+    height: 160px;
+    position: absolute;
+    top: 430px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 60px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-color);
+}

@@ -1,0 +1,203 @@
+.LamDepCoTrachNhiem {
+    width: 100%;
+}
+
+.LamDepCoTrachNhiem__background {
+    position: relative;
+    top: 66px;
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(90deg, rgba(4, 25, 61, .95), rgba(4, 25, 61, .2) 71%),
+        url('../../../assets/images/LamDepCoTrachNhiem-homepage-image.png');
+    background-position: center;
+}
+
+.LamDepCoTrachNhiem__background::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    clip-path: ellipse(50% 4% at 50% 100%);
+    z-index: 2;
+}
+
+.LamDepCoTrachNhiem__background__content {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 24px 15px 0;
+}
+
+.LamDepCoTrachNhiem__background__globeGreen {
+    width: 66px;
+    height: 66px;
+}
+
+.LamDepCoTrachNhiem__background__headerLine {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.LamDepCoTrachNhiem__background__headerLine__title {
+    width: 500px;
+    font-size: 96px;
+    color: var(--text-color);
+}
+
+.LamDepCoTrachNhiem__background__headerLine__text {
+    font-size: 96px;
+    font-weight: 700;
+    color: #00B140;
+}
+
+.LamDepCoTrachNhiem__background__subTitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.LamDepCoTrachNhiem__background__subTitle__text {
+    width: 700px;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-color);
+    margin-bottom: 100px;
+}
+
+.LamDepCoTrachNhiem__section__body {
+    // position: relative;
+    width: 1280px;
+    height: 400px;
+    // background-color: #00B140;
+    margin: 100px auto;
+}
+
+.LamDepCoTrachNhiem__section__body__text {
+    // position: absolute;
+    width: 830px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.LamDepCoTrachNhiem__section__body__blockQuote {
+    width: 860px;
+    margin: 0 auto;
+    margin-top: 50px;
+    // background-color: red;
+    position: relative;
+}
+
+.LamDepCoTrachNhiem__section__body__blockQuote::before {
+    content: "";
+    display: block;
+    width: 44px;
+    height: 35px;
+    background-image: url('../../../assets/images/LamDepCoTrachNhiem-quote.png');
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.LamDepCoTrachNhiem__section__body__blockQuote__text {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.LamDepCoTrachNhiem__section__body__blockQuote__author,
+.LamDepCoTrachNhiem__section__body__blockQuote__position {
+    font-size: 16px;
+    color: var(--primary-color);
+}
+
+.LamDepCoTrachNhiem__anchor__list {
+    width: 100%;
+    margin: 0 0 90px;
+    padding: 0 15px;
+}
+
+.LamDepCoTrachNhiem__anchor__list__items {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.LamDepCoTrachNhiem__anchor__list__items__first,
+.LamDepCoTrachNhiem__anchor__list__items__second,
+.LamDepCoTrachNhiem__anchor__list__items__third,
+.LamDepCoTrachNhiem__anchor__list__items__fourth,
+.LamDepCoTrachNhiem__anchor__list__items__fifth {
+    width: 120px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.LamDepCoTrachNhiem__anchor__list__items__first {
+    margin-right: 20px;
+}
+
+.LamDepCoTrachNhiem__anchor__list__items__second,
+.LamDepCoTrachNhiem__anchor__list__items__third,
+.LamDepCoTrachNhiem__anchor__list__items__fourth {
+    margin: 0 20px;
+}
+
+.LamDepCoTrachNhiem__anchor__list__items__fifth {
+    margin-left: 20px;
+}
+
+.LamDepCoTrachNhiem__anchor__list__items__first:hover,
+.LamDepCoTrachNhiem__anchor__list__items__second:hover,
+.LamDepCoTrachNhiem__anchor__list__items__third:hover,
+.LamDepCoTrachNhiem__anchor__list__items__fourth:hover,
+.LamDepCoTrachNhiem__anchor__list__items__fifth:hover {
+    cursor: pointer;
+}
+
+.LamDepCoTrachNhiem__anchor__list__items__first:hover .LamDepCoTrachNhiem__anchor__list__items__first__arrowDown,
+.LamDepCoTrachNhiem__anchor__list__items__second:hover .LamDepCoTrachNhiem__anchor__list__items__second__arrowDown,
+.LamDepCoTrachNhiem__anchor__list__items__third:hover .LamDepCoTrachNhiem__anchor__list__items__third__arrowDown,
+.LamDepCoTrachNhiem__anchor__list__items__fourth:hover .LamDepCoTrachNhiem__anchor__list__items__fourth__arrowDown,
+.LamDepCoTrachNhiem__anchor__list__items__fifth:hover .LamDepCoTrachNhiem__anchor__list__items__fifth__arrowDown {
+    transform: translateY(5px);
+}
+
+.LamDepCoTrachNhiem__anchor__list__items__first__icon,
+.LamDepCoTrachNhiem__anchor__list__items__second__icon,
+.LamDepCoTrachNhiem__anchor__list__items__third__icon,
+.LamDepCoTrachNhiem__anchor__list__items__fourth__icon,
+.LamDepCoTrachNhiem__anchor__list__items__fifth__icon {
+    width: 80px;
+    height: 80px;
+}
+
+.LamDepCoTrachNhiem__anchor__list__items__first__text,
+.LamDepCoTrachNhiem__anchor__list__items__second__text,
+.LamDepCoTrachNhiem__anchor__list__items__third__text,
+.LamDepCoTrachNhiem__anchor__list__items__fourth__text,
+.LamDepCoTrachNhiem__anchor__list__items__fifth__text {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.LamDepCoTrachNhiem__anchor__list__items__first__arrowDown,
+.LamDepCoTrachNhiem__anchor__list__items__second__arrowDown,
+.LamDepCoTrachNhiem__anchor__list__items__third__arrowDown,
+.LamDepCoTrachNhiem__anchor__list__items__fourth__arrowDown,
+.LamDepCoTrachNhiem__anchor__list__items__fifth__arrowDown {
+    color: var(--primary-color);
+    transition: transform 0.3s ease;
+}

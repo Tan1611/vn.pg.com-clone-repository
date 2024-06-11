@@ -1,0 +1,239 @@
+.ChungToiLaAi {
+    width: 100%;
+    // height: 1000px;
+}
+
+.ChungToiLaAi__banner {}
+
+.ChungToiLaAi__banner__header {
+    // display: flex;
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+
+.ChungToiLaAi__banner__img {
+    width: 100%;
+    clip-path: ellipse(63% 36% at 50% 20%);
+    // position: relative;
+}
+
+.ChungToiLaAi__banner__before {
+    content: "";
+    position: absolute;
+    top: 98%;
+    left: 48%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 1;
+}
+
+.ChungToiLaAi__banner__icon {
+    position: absolute;
+    top: 100%;
+    left: 48.8%;
+    width: 35px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 2;
+}
+
+.ChungToiLaAi__headerLine {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    // font-size: 60px;
+    // color: var(--primary-color);
+    // margin: 80px 0 0;
+    // text-align: center;
+}
+
+.ChungToiLaAi__headerLine__text {
+    font-size: 60px;
+    color: var(--primary-color);
+    margin: 80px 0 0;
+    // text-align: center;
+}
+
+.ChungToiLaAi__headerLine__dot {
+    color: #fedb00;
+    font-size: 140px;
+    margin: 5px 0 0;
+    // text-align: center;
+}
+
+.ChungToiLaAi__section__headLine {
+    width: 100%;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+    padding: 0 15px 40px;
+}
+
+.ChungToiLaAi__section__body {
+    width: 830px;
+    margin: 0 auto;
+    // text-align: center;
+    // display: flex;
+    // flex-direction: column;
+}
+
+.ChungToiLaAi__section__body__text {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    // align-items: center;
+    margin: 0 0 20px;
+}
+
+.ChungToiLaAi__section__body__target {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
+.ChungToiLaAi__section__body__target:hover {
+    cursor: pointer;
+}
+
+.ChungToiLaAi__hightlight {
+    width: 100%;
+    position: relative;
+}
+
+.ChungToiLaAi__hightlight__body {
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    margin: 90px auto;
+}
+
+.ChungToiLaAi__hightlight__body__text {
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 700;
+    width: 360px;
+    height: 176px;
+    text-align: center;
+    line-height: 34px;
+    position: absolute;
+    top: 29%;
+    left: 38%;
+}
+
+.ChungToiLaAi__section__headLine {
+    color: var(--primary-color);
+    font-size: 40px;
+}
+
+.ChungToiLaAi__large__list {
+    display: flex;
+    justify-content: center;
+}
+
+.ChungToiLaAi__large__list__first,
+.ChungToiLaAi__large__list__second {
+    width: 192px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ChungToiLaAi__large__list__first__img,
+.ChungToiLaAi__large__list__second__img {
+    width: 70px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.ChungToiLaAi__large__list__first__text,
+.ChungToiLaAi__large__list__second__text {
+    font-size: 12px;
+    line-height: 18px;
+    width: 100%;
+    height: 58px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ChungToiLaAi__large__list__first__btn,
+.ChungToiLaAi__large__list__second__btn {
+    width: 162px;
+    height: 77px;
+    border: 1px solid var(--primary-color);
+    border-radius: 40px;
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ffffff;
+    margin: 5px 15px;
+    padding: 11px 16px;
+    transition: background-color 0.5s ease, color 0.5s ease, border-radius 0.8s ease;
+}
+
+.ChungToiLaAi__large__list__first__btn:hover,
+.ChungToiLaAi__large__list__second__btn:hover {
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-radius: 30px;
+}
+
+.ChungToiLaAi__section__headLine__text {
+    width: 830px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.ChungToiLaAi__section__headLine__buttonIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--text-color);
+    width: 200px;
+    height: 46px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-radius 0.3s ease;
+}
+
+.ChungToiLaAi__section__headLine__buttonIcon:hover {
+    cursor: pointer;
+    background-color: var(--primary-color);
+}
+
+.ChungToiLaAi__section__headLine__buttonIcon:hover .ChungToiLaAi__section__headLine__buttonIcon__text,
+.ChungToiLaAi__section__headLine__buttonIcon:hover .ChungToiLaAi__section__headLine__buttonIcon__icon {
+    color: var(--text-color);
+}
+
+.ChungToiLaAi__section__headLine__buttonIcon__text {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-right: 8px;
+}
+
+.ChungToiLaAi__section__headLine__buttonIcon__icon {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+
+
+
+
+

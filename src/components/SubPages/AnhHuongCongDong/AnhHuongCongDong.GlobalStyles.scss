@@ -1,0 +1,229 @@
+.AnhHuongCongDong {
+    width: 100%;
+    // height: 1000px;
+}
+
+.AnhHuongCongDong__banner {}
+
+.AnhHuongCongDong__banner__header {
+    // display: flex;
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+
+.AnhHuongCongDong__banner__img {
+    width: 100%;
+    clip-path: ellipse(63% 36% at 50% 20%);
+    // position: relative;
+}
+
+.AnhHuongCongDong__banner__before {
+    content: "";
+    position: absolute;
+    top: 87%;
+    left: 48%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 1;
+}
+
+.AnhHuongCongDong__banner__icon {
+    position: absolute;
+    top: 88%;
+    left: 48.8%;
+    width: 35px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 2;
+}
+
+.AnhHuongCongDong__headerLine {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    // font-size: 60px;
+    // color: var(--primary-color);
+    // margin: 80px 0 0;
+    // text-align: center;
+}
+
+.AnhHuongCongDong__headerLine__text {
+    font-size: 60px;
+    color: var(--primary-color);
+    margin: 80px 0 0 ;
+    // text-align: center;
+}
+
+.AnhHuongCongDong__headerLine__dot {
+    color: #fedb00;
+    font-size: 140px;
+    margin: 5px 0 0;
+    // text-align: center;
+}
+
+.AnhHuongCongDong__section__headLine {
+    width: 100%;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+    padding: 0 15px 40px;
+}
+
+.AnhHuongCongDong__section__body {
+    width: 830px;
+    margin: 0 auto;
+    // text-align: center;
+    // display: flex;
+    // flex-direction: column;
+}
+
+.AnhHuongCongDong__section__body__text {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    // align-items: center;
+    margin: 0 0 20px;
+}
+
+.AnhHuongCongDong__section__body__learnMore {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
+.AnhHuongCongDong__section__body__learnMore:hover {
+    cursor: pointer;
+}
+
+.AnhHuongCongDong__anchor__list {
+    width: 100%;
+    margin: 0 0 90px;
+    padding: 0 15px;
+}
+
+.AnhHuongCongDong__anchor__list__title {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.AnhHuongCongDong__anchor__list__items {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.AnhHuongCongDong__anchor__list__items__first {
+    width: 120px;
+    height: 150px;
+    // background-color: aqua;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.AnhHuongCongDong__anchor__list__items__first:hover {
+    cursor: pointer;
+}
+
+.AnhHuongCongDong__anchor__list__items__first:hover .AnhHuongCongDong__anchor__list__items__first__arrowDown {
+    transform: translateY(5px);
+}
+
+.AnhHuongCongDong__anchor__list__items__first__icon,
+.AnhHuongCongDong__anchor__list__items__second__icon,
+.AnhHuongCongDong__anchor__list__items__third__icon,
+.AnhHuongCongDong__anchor__list__items__fourth__icon {
+    width: 80px;
+    height: 80px;
+}
+
+.AnhHuongCongDong__anchor__list__items__first__text,
+.AnhHuongCongDong__anchor__list__items__second__text,
+.AnhHuongCongDong__anchor__list__items__third__text,
+.AnhHuongCongDong__anchor__list__items__fourth__text {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.AnhHuongCongDong__anchor__list__items__second {
+    width: 120px;
+    height: 150px;
+    // background-color: aquamarine;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.AnhHuongCongDong__anchor__list__items__second:hover {
+    cursor: pointer;
+}
+
+.AnhHuongCongDong__anchor__list__items__second:hover .AnhHuongCongDong__anchor__list__items__second__arrowDown {
+    transform: translateY(5px);
+}
+
+.AnhHuongCongDong__anchor__list__items__third {
+    width: 120px;
+    height: 150px;
+    // background-color: aquamarine;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.AnhHuongCongDong__anchor__list__items__third:hover {
+    cursor: pointer;
+}
+
+.AnhHuongCongDong__anchor__list__items__third:hover .AnhHuongCongDong__anchor__list__items__third__arrowDown {
+    transform: translateY(5px);
+}
+
+.AnhHuongCongDong__anchor__list__items__fourth {
+    width: 120px;
+    height: 150px;
+    // background-color: bisque;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.AnhHuongCongDong__anchor__list__items__fourth:hover {
+    cursor: pointer;
+}
+
+.AnhHuongCongDong__anchor__list__items__fourth:hover .AnhHuongCongDong__anchor__list__items__fourth__arrowDown {
+    transform: translateY(5px);
+}
+
+.AnhHuongCongDong__anchor__list__items__first__arrowDown,
+.AnhHuongCongDong__anchor__list__items__second__arrowDown,
+.AnhHuongCongDong__anchor__list__items__third__arrowDown,
+.AnhHuongCongDong__anchor__list__items__fourth__arrowDown {
+    color: var(--primary-color);
+    transition: transform 0.3s ease;
+}

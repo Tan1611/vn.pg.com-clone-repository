@@ -1,0 +1,291 @@
+// Desktop
+.wrap__SubFooter {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 466px;
+    clip-path: ellipse(118vw 100% at 50% 100%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 120px 0 0;
+}
+
+.body__SubFooter {
+    position: absolute;
+    top: 50px;
+    height: 416px;
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 50px;
+}
+
+.body__SubFooter__btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.btn__back {
+    width: 210px;
+    height: 40px;
+    color: #fff;
+    background-color: #003da5;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 1px solid #fff;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #fff;
+        color: #003da5;
+    }
+}
+
+.body__SubFooter__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body__SubFooter__nav__group li,
+.body__SubFooter__nav__group a {
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.body__SubFooter__nav__group label {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+// Cột một
+.body__SubFooter__nav__contactus {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.body__SubFooter__nav__contactus__icon {
+    margin-right: 8px;
+}
+
+.body__SubFooter__nav__career {
+    display: flex;
+    align-items: center;
+}
+
+.body__SubFooter__nav__contactus:hover,
+.body__SubFooter__nav__career:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    cursor: default;
+}
+
+.body__SubFooter__nav__career__icon {
+    margin-right: 8px;
+}
+
+.body__SubFooter__nav__career__text {
+    margin-right: 8px;
+}
+
+// Hai
+
+.body__SubFooter__nav__investor,
+.body__SubFooter__nav__partner,
+.body__SubFooter__nav__supplier {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+
+    &:hover {
+        text-decoration: underline;
+        text-underline-offset: 4px;
+        cursor: default;
+    }
+}
+
+.body__SubFooter__nav__investor__text,
+.body__SubFooter__nav__partner__text,
+.body__SubFooter__nav__supplier__text {
+    margin-right: 8px;
+}
+
+// Ba
+
+.body__SubFooter__nav__leader,
+.body__SubFooter__nav__structure,
+.body__SubFooter__nav__policy,
+.body__SubFooter__nav__storage,
+.body__SubFooter__nav__awards,
+.body__SubFooter__nav__news {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+
+    &:hover {
+        text-decoration: underline;
+        text-underline-offset: 4px;
+        cursor: default;
+    }
+}
+
+.body__SubFooter__nav__awards__text,
+.body__SubFooter__nav__news__text {
+    margin-right: 8px;
+}
+
+// Bốn
+
+.body__SubFooter__nav__sitemap {
+    margin-top: 16px;
+
+    &:hover {
+        text-decoration: underline;
+        text-underline-offset: 4px;
+        cursor: default;
+    }
+}
+
+// Năm
+
+.body__SubFooter__nav__privacy,
+.body__SubFooter__nav__conditions,
+.body__SubFooter__nav__adchoices {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+
+    &:hover {
+        text-decoration: underline;
+        text-underline-offset: 4px;
+        cursor: default;
+    }
+}
+
+.body__SubFooter__nav__privacy__text,
+.body__SubFooter__nav__conditions__text,
+.body__SubFooter__nav__adchoices__text {
+    margin-right: 8px;
+}
+
+.body__SubFooter__nav__adchoices__img {
+    width: 14px;
+    height: 18px;
+}
+
+// Body footer Bottom
+.body__SubFooter__bottom {
+    width: 1280px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.body__SubFooter__bottom__left__btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 135px;
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    color: #003da5;
+    background-color: #fff;
+
+    &:hover {
+        background-color: #003da5;
+        cursor: pointer;
+        color: #fff;
+        border: solid 1px #fff;
+    }
+}
+
+.body__SubFooter__bottom__left__icon {
+    width: 24px;
+    height: 24px;
+}
+
+.body__SubFooter__bottom__left__text {
+    font-size: 14px;
+    font-size: 400;
+}
+
+.body__SubFooter__bottom__center {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.body__SubFooter__bottom__right {
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+}
+
+.body__SubFooter__bottom__right__facebook,
+.body__Subfooter__bottom__right__twitter,
+.body__SubFooter__bottom__right__youtube,
+.body__SubFooter__bottom__right__instagram,
+.body__SubFooter__bottom__right__linkedin{
+    width: 24px;
+    height: 24px;
+    color: #fff;
+}
+
+// Tablet, Mobile
+
+@media only screen and (max-width: 899px) {
+    .wrap__SubFooter {
+        height: 990px;
+    }
+
+    .body__SubFooter__nav {
+        flex-direction: column;
+    }
+
+    .body__SubFooter__nav__group {
+        margin-bottom: 20px;
+    }
+
+    .body__SubFooter__nav__group li,
+    .body__SubFooter__nav__group label {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .body__SubFooter__bottom {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .body__SubFooter__bottom__left {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .body__SubFooter__bottom__center {
+        order: 3;
+        margin-top: 20px;
+    }
+
+    .body__SubFooter__bottom__right {
+        order: 2;
+        margin-top: 20px;
+    }
+
+    .body__SubFooter__bottom__right__facebook,
+    .body__SubFooter__bottom__right__twitter,
+    .body__SubFooter__bottom__right__youtube,
+    .body__SubFooter__bottom__right__instagram,
+    .body__SubFooter__bottom__right__linkedin {
+        margin-right: 40px;
+    }
+}

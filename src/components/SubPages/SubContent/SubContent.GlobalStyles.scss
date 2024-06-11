@@ -1,0 +1,752 @@
+// Desktop
+.wrap__SubContent{
+    // margin-top: 66px;
+    // width: 1440px;
+}
+
+// Giới Thiệu
+.content__introduce {
+    position: relative;
+    background-color: #003da5;
+    // width: 1440px;
+    height: 630px;
+    overflow: hidden;
+}
+
+.content__introduce::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.content__introduce::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    clip-path: ellipse(50% 4% at 50% 100%);
+    z-index: 2;
+}
+
+.content__introduce img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.content__introduce img.active {
+    opacity: 1;
+}
+
+.content__introduce__image1,
+.content__introduce__image2,
+.content__introduce__image3,
+.content__introduce__image4 {
+    width: 1440px;
+    max-width: 100%;
+}
+
+// Button pause/play
+.content__introduce__btn {
+    position: absolute;
+    background-color: #003da5;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    right: 2%;
+    top: 14%;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.content__introduce__btn__play,
+.content__introduce__btn__pause {
+    width: 16px;
+    height: 16px;
+}
+
+// Nội Dung Phần Giới Thiệu
+.content__introduce__title,
+.content__introduce__report__btn {
+    position: absolute;
+    z-index: 6;
+}
+
+.content__introduce__title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1215px;
+    height: 192px;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.content__introduce__title::after {
+    content: '.';
+    color: #fedb00;
+}
+
+.content__introduce__report__btn {
+    position: relative;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 294px;
+    height: 46px;
+    background-color: #003da5;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+// Xử lí hover
+.content__introduce__report__btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    background: #fff;
+    transition: width 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    z-index: 2;
+}
+
+.content__introduce__report__btn:hover::before {
+    width: 50%;
+}
+
+.content__introduce__report__btn::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    background-color: #fff;
+    transition: width 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    z-index: 2;
+}
+
+.content__introduce__report__btn:hover::after {
+    width: 51%;
+}
+
+.content__introduce__report__btn__text,
+.content__introduce__report__btn__icon {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    z-index: 3;
+}
+
+.content__introduce__report__btn:hover .content__introduce__report__btn__text,
+.content__introduce__report__btn:hover .content__introduce__report__btn__icon {
+    color: #003da5;
+}
+
+.content__introduce__report__btn__icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+
+// Cam Kết & Nỗ Lực
+.content__commitment__effort {
+    width: 1440px;
+    height: 705px;
+    padding-top: 88px;
+}
+
+.content__commitment__effort__title {
+    width: 1300px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__commitment__effort__ourbrand__text {
+    font-size: 16px;
+    font-weight: 800;
+    color: #003da5;
+}
+
+.content__commitment__effort__products__text {
+    font-size: 48px;
+    font-weight: 700;
+    color: #003da5;
+}
+
+.content__commitment__effort__products__text::after {
+    content: '.';
+    color: #fedb00;
+}
+
+.content__commitment__effort__list__products {
+    width: 1440px;
+    height: 304px;
+    margin: 32px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content__commitment__effort__brand {
+    width: 200x;
+    height: 200px;
+    padding: 0 8px;
+    position: relative;
+}
+
+.content__commitment__effort__brand img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.content__commitment__effort__brand::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #02266d;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s linear, transform 0.3s ease;
+    z-index: 2;
+    transform-origin: center;
+}
+
+.content__commitment__effort__brand:hover::before {
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+.content__commitment__effort__brand:hover img {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.hover__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.hover__content .hover__content__text {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hover__content .hover__content__btn {
+    background-color: #fff;
+    color: #003da5;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.hover__content .hover__content__btn a {
+    text-decoration: none;
+    color: #003da5;
+}
+
+.content__commitment__effort__brand:hover .hover__content {
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 3;
+}
+
+// Xử lí khi hover
+
+.content__commitment__effort__showmore__products {
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.content__commitment__effort__showmore__products__btn {
+    width: 514px;
+    height: 100%;
+    border-radius: 50px;
+    border: solid 1px #003da5;
+    background-color: #fff;
+    color: #003da5;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    &:hover {
+        cursor: pointer;
+        background-color: #003da5;
+        color: #fff;
+    }
+}
+
+.content__commitment__effort__showmore__products__prev__next {
+    position: absolute;
+    right: 5%;
+    color: #003da5;
+}
+
+.content__commitment__effort__showmore__products__prev,
+.content__commitment__effort__showmore__products__next {
+    width: 42px;
+    height: 28px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.content__commitment__effort__showmore__products__prev:hover {
+    cursor: pointer;
+    transform: scale(1.3) translateX(-10%);
+}
+
+.content__commitment__effort__showmore__products__next:hover {
+    cursor: pointer;
+    transform: scale(1.3) translateX(10%);
+}
+
+// Nỗ Lực Phát Triển Bền Vững
+.content__sustainable__development {
+    width: 1440px;
+    height: 620px;
+    display: flex;
+    overflow: visible;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content__sustainable__development__left {
+    width: 700px;
+    height: 460px;
+    border-radius: 300px;
+}
+
+.content__sustainable__development__right {
+    width: 700px;
+    height: 460px;
+    background-color: #003da5;
+    border-radius: 300px;
+    display: flex;
+    position: relative;
+}
+
+.content__sustainable__development__left__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 300px;
+    object-fit: cover;
+}
+
+.content__sustainable__development__right__body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.content__sustainable__development__right__body__text {
+    width: 80%;
+    margin: 100px auto 0;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.content__sustainable__development__right__body__btn {
+    position: absolute;
+    left: 30%;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    width: 180px;
+    height: 46px;
+    background-color: #003da5;
+    border: solid 1px #fff;
+    border-radius: 50px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #fff;
+        color: #003da5;
+    }
+}
+
+.content__sustainable__development__right__img {
+    height: 100%;
+    right: 0;
+}
+
+// Các Trang Web Của P&G
+.content__websites__orther {
+    width: 1440px;
+    height: 863px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content__websites__orther__left,
+.content__websites__orthe__right {
+    cursor: pointer;
+    width: 600px;
+    height: 681px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    transition: transform 0.3s;
+    z-index: 1;
+}
+
+.overlay:hover .content__websites__orther__left__img,
+.overlay:hover .content__websites__orther__right__img {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.content__websites__orther__left__img,
+.content__websites__orther__right__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    transition: transform 0.3s;
+    position: relative;
+}
+
+.overlay::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    border: 3px solid #fff;
+    box-sizing: border-box;
+}
+
+.overlay__hidden {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    height: 30%;
+    border-top-right-radius: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    z-index: 10;
+}
+
+.overlay:hover .overlay__hidden {
+    transform: translateY(0);
+}
+
+.overlay__hidden__img {
+    width: 60px;
+    height: 50px;
+    margin-left: 40px;
+}
+
+.overlay__hidden__text {
+    color: #003da5;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.overlay__hidden__btn {
+    font-size: 16px;
+    font-weight: 600;
+    width: 250px;
+    height: 46px;
+    color: #003da5;
+    background-color: #fff;
+    border: solid 1px #003da5;
+    border-radius: 50px;
+    margin-left: 40px;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #003da5;
+        color: #fff;
+    }
+}
+
+// Tablet, Mobile
+@media only screen and (max-width: 899px) {
+    .wrap__content {
+        margin-top: 66px;
+        width: 100%;
+    }
+
+    // Giới Thiệu
+    .content__introduce {
+        position: relative;
+        background-color: #003da5;
+        width: 100%;
+        height: 390px;
+        overflow: hidden;
+    }
+
+    .content__introduce::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        z-index: 1;
+    }
+
+    .content__introduce::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        clip-path: ellipse(50% 4% at 50% 100%);
+        z-index: 2;
+        background-size: 100% auto;
+    }
+
+    .content__introduce img {
+        position: absolute;
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        top: -18%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    .content__introduce__btn {
+        display: none;
+    }
+
+    .content__introduce__title {
+        height: 96px;
+        font-size: 40px;
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    .content__introduce__report__btn {
+        margin-top: 40px;
+        border: 1px solid #fff;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #fff;
+            color: #003da5;
+        }
+    }
+
+    // Cam Kết & Nỗ Lực
+    .content__commitment__effort {
+        width: 100%;
+        height: 630px;
+        padding: 10px;
+    }
+
+    .content__commitment__effort__title {
+        width: 100%;
+    }
+
+    .content__commitment__effort__products__text {
+        display: none;
+    }
+
+    .content__commitment__effort__list__products {
+        margin: 0;
+    }
+
+    .content__commitment__effort__showmore__products {
+        display: flex;
+        flex-direction: column;
+        height: 120px;
+        position: relative;
+    }
+
+    .content__commitment__effort__showmore__products__btn {
+        position: absolute;
+        height: 46px;
+        top: 0;
+    }
+
+    .content__commitment__effort__showmore__products__prev__next {
+        position: absolute;
+        height: 46px;
+        display: flex;
+        justify-content: space-around;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    // Nỗ Lực Phát Triển Bền Vững
+    .content__sustainable__development {
+        position: relative;
+        width: 100%;
+        height: 416px;
+        margin-bottom: 50px;
+    }
+
+    .content__sustainable__development__left {
+        width: 100%;
+        height: 416px;
+    }
+
+    .content__sustainable__development__left__img {
+        border-radius: 0;
+        z-index: 1;
+    }
+
+    .content__sustainable__development__right {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 320px;
+        height: 320px;
+        border-radius: 300px;
+        background-color: rgba(0, 61, 165, 0.8);
+        color: #fff;
+        z-index: 2;
+    }
+
+    .content__sustainable__development__right__body {
+        position: relative;
+    }
+
+    .content__sustainable__development__right__body__text {
+        font-size: 28px;
+        position: absolute;
+        margin: 70px 42px;
+        left: 0;
+        top: 0;
+    }
+
+    .content__sustainable__development__right__body__text::after {
+        content: ' .';
+        color: #fedb00;
+    }
+
+    .content__sustainable__development__right__body__btn {
+        background-color: transparent;
+        position: absolute;
+        margin: 70px;
+        left: 0;
+        bottom: 0;
+    }
+
+    .content__sustainable__development__right__img {
+        display: none;
+    }
+
+    // Các Trang Web Của P&G
+    .content__websites__orther {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .content__websites__orther__left,
+    .content__websites__orthe__right {
+        width: 100%;
+        margin: 40px auto;
+    }
+
+    .overlay {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aqua;
+    }
+
+    .overlay__hidden {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 1);
+        text-align: center;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,292 @@
+.CacNhanHieu {
+    width: 100%;
+    // height: 1000px;
+}
+
+.CacNhanHieu__background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(4, 25, 61, .95), rgba(4, 25, 61, .2) 71%),
+                url('../../../assets/images/background-CacNhanHieu.png');
+
+    background-position: center;
+}
+
+.CacNhanHieu__background::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    clip-path: ellipse(50% 4% at 50% 100%);
+    z-index: 2;
+}
+
+.CacNhanHieu_background__body {
+    width: 1250px;
+    margin: 0 auto;
+    padding: 100px 15px;
+}
+
+.CacNhanHieu__background__icon {
+    margin-top: 66px;
+    max-width: 100%;
+    width: 64px;
+    height: 64px;
+}
+
+.CacNhanHieu__background__titleDot {
+    max-width: 100%;
+    display: flex;
+}
+
+.CacNhanHieu__background__title {
+    color: var(--text-color);
+    font-size: 96px;
+}
+
+.CacNhanHieu__background__dot {
+    color: #00A3E0;
+    font-size: 96px;
+}
+
+.CacNhanHieu__background__content {
+    color: var(--text-color);
+    font-size: 16px;
+    max-width: 100%;
+    width: 480px;
+    height: 102px;
+    line-height: 24px;
+}
+
+.mouse__scroll {
+    position: absolute;
+    margin-top: 12px;
+    box-sizing: border-box;
+    bottom: 10%;
+    right: 7%;
+    width: 25px;
+    height: 35px;
+    border-radius: 12px;
+    border: 2px solid var(--text-color);
+}
+
+@keyframes mouse-wheel {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    } 10% {
+        transform: translateY(0);
+        opacity: 1;
+    } 70% {
+        transform: translateY(12px);
+        opacity: 1;
+    } 90% {
+        transform: translateY(12px);
+        opacity: 0;
+    }
+}
+
+.mouse__scroll__wheel {
+    position: absolute;
+    left: 9px;
+    top: 5px;
+    background-color: var(--text-color);
+    width: 3px;
+    height: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    animation: mouse-wheel 2s ease-in-out infinite;
+}
+
+.CacNhanHieu__body {
+    position: relative;
+    display: flex;
+    height: 3900px;
+    // background-color: aqua;
+    margin: 0 60px;
+    padding: 32px 0 0;
+    box-sizing: border-box;
+}
+
+.CacNhanHieu__body__left {
+    position: absolute;
+    // background-color: blue;
+    padding: 0 24px;
+    width: 300px;
+    height: 424px;
+}
+
+.CacNhanHieu__body__left__title {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 16px;
+}
+
+.CacNhanHieu__body__left__header {
+    width: 235px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.CacNhanHieu__body__left__input {
+    position: absolute;
+    width: 235px;
+    height: 40px;
+    border: 1.5px solid var(--primary-color);
+    border-radius: 20px;
+    padding: 0 16px;
+    font-size: 16px;
+    outline: none;
+}
+
+.CacNhanHieu__body__left__input:hover {
+    cursor: text;
+    border: 2.5px solid var(--primary-color);
+}
+
+.CacNhanHieu__body__left__input::placeholder {
+    color: var(--primary-color);
+}
+
+.CacNhanHieu__body__left__icon {
+    position: absolute;
+    right: 5%;
+    color: var(--primary-color);
+}
+
+.CacNhanHieu__body__left__icon:hover {
+    cursor: pointer;
+}
+
+.CacNhanHieu__body__left__content {
+
+}
+
+.CacNhanHieu__body__left__content__list {}
+
+.CacNhanHieu__body__left__content__list__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+    list-style-type: none;
+}
+
+.CacNhanHieu__body__left__content__list__check {
+    display: none;
+}
+
+/* Tạo checkbox tùy chỉnh */
+.CacNhanHieu__body__left__content__list__title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 22px;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Hiển thị dấu kiểm khi checkbox được chọn */
+.CacNhanHieu__body__left__content__list__check:checked+.CacNhanHieu__body__left__content__list__title::before {
+    background-color: var(--text-color);
+    border-color: var(--primary-color);
+    content: '✓';
+    font-weight: 800;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.CacNhanHieu__body__left__content__list__title {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+    padding-left: 35px;
+}
+
+.CacNhanHieu__body__left__content__clear {
+    border: 2px solid var(--primary-color);
+    background-color: var(--text-color);
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 20px;
+    width: 75px;
+    height: 36px;
+}
+
+.CacNhanHieu__body__left__content__clear:hover {
+    background-color: #002c7a;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.CacNhanHieu__body__right {
+    position: absolute;
+    // background-color: aquamarine;
+    padding: 0 20px;
+    width: 1030px;
+    // height: 3828px;
+    right: 0;
+}
+
+.CacNhanHieu__body__right__category {
+    width: 990px;
+    // background-color: aqua;
+}
+
+.CacNhanHieu__body__right__category__title {
+    width: 100%;
+    height: 60px;
+    font-size: 40px;
+    color: var(--primary-color);
+    margin: 0 0 32px;
+    padding: 0 0 8px;
+    
+}
+
+.CacNhanHieu__body__right__category__list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.CacNhanHieu__body__right__category__list__brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.CacNhanHieu__body__right__category__list__item {
+    width: 248px;
+    height: 248px;
+    padding: 0 16px;
+    background-color: bisque;
+}
+
+.CacNhanHieu__body__right__category__list__item__text {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin: 0 0 10px;
+    padding: 16px 0 0;
+}

@@ -1,0 +1,230 @@
+.CoHoiViecLam {
+    width: 100%;
+}
+
+.CoHoiViecLam__header {
+    width: 1240px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0 12px;
+    // background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.CoHoiViecLam__header__logo {
+    width: 135px;
+    height: 50px;
+}
+
+.CoHoiViecLam__header__dropDown,
+.CoHoiViecLam__header__dropDown__right {
+    display: flex;
+    align-items: center;
+}
+
+.CoHoiViecLam__header__dropDown:hover .CoHoiViecLam__header__dropDown__title{
+    cursor: pointer;
+    color: #00A3ED;
+}
+
+.CoHoiViecLam__header__dropDown__title__right:hover {
+    color: #6200ee;
+}
+
+.CoHoiViecLam__header__dropDown__title,
+.CoHoiViecLam__header__dropDown__title__right {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.CoHoiViecLam__header__dropDown__title__right {
+    color: #00A3ED;
+}
+
+.CoHoiViecLam__header__dropDown__icon__arrow {
+    width: 24px;
+    height: 24px;
+    color: #a1a3a4;
+}
+
+.CoHoiViecLam__header__dropDown__icon {
+    width: 14px;
+    height: 14px;
+    color: #00A3ED;
+    margin-right: 5px;
+}
+
+.CoHoiViecLam__body {
+    width: 100%;
+    height: 633px;
+}
+
+.CoHoiViecLam__body__banner {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../assets/images/CoHoiViecLam-home-hero.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.CoHoiViecLam__body__banner__overlay {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 61, 165, 0.7);
+}
+
+.CoHoiViecLam__body__banner__block {
+    width: 800px;
+    height: 260px;
+    margin: 0 auto;
+}
+
+.CoHoiViecLam__body__banner__block__title {
+    text-align: center;
+    font-size: 61px;
+    color: #fff;
+}
+
+.CoHoiViecLam__body__banner__block__text {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.CoHoiViecLam__body__banner__block__text__normal {
+    color: #fff;
+}
+
+.CoHoiViecLam__body__banner__block__text__special {
+    color: #FFE400;
+}
+
+.CoHoiViecLam__body__banner__block__search {
+    width: 642px;
+    height: 52px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 40px;
+    position: relative;
+}
+
+.CoHoiViecLam__body__banner__block__search__input {
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+    color: #393939;
+    border-color: #D8D8D8;
+    border: 1px solid #D8D8D8;
+    border-radius: 28px;
+    padding: 14px 140px 14px 32px;
+}
+
+.CoHoiViecLam__body__banner__block__search__icon {
+    position: absolute;
+    right: 5%;
+    color: var(--primary-color);
+}
+
+.CoHoiViecLam__footer {
+    width: 100%;
+    height: 590px;
+    background-color: #012169;
+    padding: 40px 0 20px;
+}
+
+.CoHoiViecLam__footer__item {
+    width: 1140px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.CoHoiViecLam__footer__item__first {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 300px;
+    padding: 0 12px;
+}
+
+.CoHoiViecLam__footer__item__first__logo {
+    width: 155px;
+    height: 58px;
+}
+
+.CoHoiViecLam__footer__item__first__text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.CoHoiViecLam__footer__item__second {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 300px;
+    padding: 0 12px;
+    background-color: #012169;
+}
+
+.CoHoiViecLam__footer__item__second__title,
+.CoHoiViecLam__footer__item__third__title,
+.CoHoiViecLam__footer__item__fourth__title {
+    font-size: 21px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.CoHoiViecLam__footer__item__second__link,
+.CoHoiViecLam__footer__item__third__link,
+.CoHoiViecLam__footer__item__fourth__link {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.CoHoiViecLam__footer__item__third {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 300px;
+    padding: 0 12px;
+}
+
+.CoHoiViecLam__footer__item__fourth {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 300px;
+    padding: 0 12px;
+}
+
+.CoHoiViecLam__footer__item__fifth {
+    width: 20%;
+    height: 300px;
+    padding: 20px 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.CoHoiViecLam__footer__item__fifth__link {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.CoHoiViecLam__footer__item__second__link:hover,
+.CoHoiViecLam__footer__item__third__link:hover,
+.CoHoiViecLam__footer__item__fourth__link:hover,
+.CoHoiViecLam__footer__item__fifth__link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

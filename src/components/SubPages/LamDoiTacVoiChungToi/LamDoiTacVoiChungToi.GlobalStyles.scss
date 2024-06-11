@@ -1,0 +1,119 @@
+.LamDoiTacVoiChungToi {
+    width: 100%;
+    height: 1149px;
+}
+
+.LamDoiTacVoiChungToi__header {
+    width: 100%;
+    height: 82px;
+    padding: 13px 35px;
+    display: flex;
+    align-items: center;
+}
+
+.LamDoiTacVoiChungToi__header__img {
+    width: 296px;
+    height: 56px;
+}
+
+.LamDoiTacVoiChungToi__header__navigation {
+    margin-left: 80px;
+}
+
+.LamDoiTacVoiChungToi__header__navigation__link {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    margin-right: 20px;
+}
+
+.LamDoiTacVoiChungToi__header__search {
+    width: 25px;
+    height: 25px;
+    margin-left: 120px;
+}
+
+.LamDoiTacVoiChungToi__content {
+    width: 100%;
+    height: 660px;
+    padding: 1px 6px;
+    background-color: blue;
+    display: flex;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.LamDoiTacVoiChungToi__content__left {
+    width: 50%;
+}
+
+.LamDoiTacVoiChungToi__content__right {
+    width: 50%;
+    position: relative;
+}
+
+.LamDoiTacVoiChungToi__button {
+    position: absolute;
+    top: 10%;left: 10%;
+    width: 50px;
+    height: 50px;
+    z-index: 10000;
+}
+
+.LamDoiTacVoiChungToi__footer {
+    width: 100%;
+    height: 407px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+}
+
+.LamDoiTacVoiChungToi__footer__body {
+    width: 880px;
+    height: 407px;
+    padding: 35px 15px;
+}
+
+.LamDoiTacVoiChungToi__footer__body__head {
+    display: flex;
+}
+
+.LamDoiTacVoiChungToi__footer__body__first,
+.LamDoiTacVoiChungToi__footer__body__second,
+.LamDoiTacVoiChungToi__footer__body__third,
+.LamDoiTacVoiChungToi__footer__body__fourth {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.LamDoiTacVoiChungToi__footer__body__first__text,
+.LamDoiTacVoiChungToi__footer__body__second__text,
+.LamDoiTacVoiChungToi__footer__body__third__text,
+.LamDoiTacVoiChungToi__footer__body__fourth__text {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+
+.LamDoiTacVoiChungToi__footer__body__first__text:hover,
+.LamDoiTacVoiChungToi__footer__body__second__text:hover,
+.LamDoiTacVoiChungToi__footer__body__third__text:hover,
+.LamDoiTacVoiChungToi__footer__body__fourth__text:hover {
+    cursor: pointer;
+    color: rgb(252, 219, 4);
+}
+
+.LamDoiTacVoiChungToi__footer__body__bottom {
+    margin-top: 30px;
+}
+
+.LamDoiTacVoiChungToi__footer__body__bottom__img {
+    width: 296px;
+    height: 56px;
+}
