@@ -1,7 +1,7 @@
 import Axios from './../Axios';
 
-const getArticleDetail = (params) => {
-    const res = Axios.get(`article/${params}/`);
+const getArticleDetail = async (params) => {
+    const res = await Axios.get(`article/${params}/`);
 
     return res;
 };
