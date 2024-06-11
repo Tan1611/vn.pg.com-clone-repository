@@ -1,12 +1,12 @@
 import Axios from './../Axios';
 
-const createArticle = async (params = {}) => {
-    const req = await Axios.post('/article/create-article/', params);
+const updateArticle = async (id, params = {}) => {
+    const req = await Axios.put(`/article/${id}/`, params);
 
     return req;
 };
 
-export default createArticle;
+export default updateArticle;
 
 // config params
 // const [params, setParams] = useState({
